@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News and Reports</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <div class="menu-btn">
+        <i class="fas fa-bars"></i>
+     </div>
+
+<div class="side-bar">
+    <header>
+        <div class="close-btn">
+            <i class="fa-solid fa-xmark"></i>
+           <!--- <i class="fa-regular fa-circle-xmark"></i> --> 
+        </div>
+        <img src="./images/IMG-20240818-WA0024.jpg" alt="">
+        <h1>Kids nutri garden</h1>
+
+    </header>
+
+<div class="menu">
+    <div class="item"><a href="home.html"><i class="fas fa-desktop"></i>Home</a></div>
+    <div class="item"><a href="aboutus.html" class="sub-btn"><i class="fa-regular fa-circle-question"></i>About us
+        <i class="fa-solid fa-angle-right"></i>
+        </a>
+    <div class="sub-menu">
+        <a href="" class="sub-item">Our mission</a>
+        <a href="" class="sub-item">Our team</a>
+        <a href="" class="sub-item">History</a>
+        <a href="" class="sub-item">Advisory board</a>
+    </div>
+</div>
+    
+    <div class="item"><a href="prog.html" class="sub-btn"><i class="fa-brands fa-elementor"></i></i>Our Programs
+        <i class="fa-solid fa-angle-right"></i>
+        </a>
+    <div class="sub-menu">
+        <a href="" class="sub-item">Vacation school</a>
+        <a href="" class="sub-item">Trainings</a>
+        <a href="" class="sub-item">Exhibition garden fork</a>
+        <a href="" class="sub-item">Advocacy</a>
+        <a href="" class="sub-item">Curriculum</a>
+</div>
+</div>
+    <div class="item"><a href="vln.html" class="sub-btn"><i class="fa-solid fa-handshake-angle"></i>Get involved
+        <i class="fa-solid fa-angle-right"></i>
+       
+    </a>
+    <div class="sub-menu">
+        <a href="" class="sub-item">Volunteer</a>
+        <a href="" class="sub-item">Support</a>
+
+        </div>
+</div>
+    <div class="item"><a href="new.html" class="sub-btn"><i class="fa-solid fa-newspaper"></i>News & Report
+        <i class="fa-solid fa-angle-right"></i>
+        
+    </a>
+    <div class="sub-menu">
+        <a href="" class="sub-item">Annual Report</a>
+        <a href="" class="sub-item">Newsletter</a>
+        <a href="" class="sub-item">Our Gallery</a>
+        </div>
+    </div>
+    <div class="item"><a class="sub-btn"><i class="fa-solid fa-book-open"></i>Resources
+        <i class="fa-solid fa-angle-right "></i>
+        
+            <div class="sub-menu">
+                <a href="" class="sub-item">Curriculum</a>
+                <a href="" class="sub-item">Toolkit</a>
+                </div>
+        </div>
+    </div>
+    
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script>
+ $(document).ready(function(){
+     $('.menu-btn').click(function(){
+         $('.side-bar').addClass('active');
+         $('.menu-btn').css("visibility", "hidden");
+     });
+
+
+ $('.close-btn').click(function(){
+     $('.side-bar').removeClass('active');
+     $('.menu-btn').css("visibility", "visible");
+ });
+
+ $('.sub-btn').click(function(){
+     $(this).next('.sub-menu').slideToggle();
+     $('this').find('.fa-angle-right').toggleClass('rotate');
+ });
+ });
+
+
+</script>
+</body>
+</html>

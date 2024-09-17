@@ -1,0 +1,328 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    transition: all 0.4s cubic-bezier(.43,1.1,.62,1.08);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+:root{
+    --color-1: #159c09;
+    --color-2: #D21404;
+    --color-3:#000000;
+    --color-4:#ffffff;
+    --color-5:#666;
+    --color-6:#ccc;
+    --color-7: rgba(0,0,0,.7);
+    --box-shadow:0.5rem 1 rem rgba(0,0,0,.1);
+
+}
+* > img{
+    user-select: none;
+    pointer-events: none;
+}
+html{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+}
+
+html::-webkit-scrollbar{
+    width: 0.8rem;
+}
+html::-webkit-scrollbar-track{
+    background-color: var(--color-4);
+}
+html::-webkit-scrollbar-thumb{
+    background-color: var(--color-1);
+}
+  body{
+
+    margin: 0px;
+    background-color: #fcfdfc;
+       }
+    
+
+
+                                            /*navbar menu*/
+      .menu-btn{
+        position: fixed;
+        color:var(--color-1);
+        font-size: 35px;
+        cursor: pointer;
+        margin: 20px;
+        transition: 0.3s ease;
+        width: 100%;
+        padding: 10px;
+        top: -20px;
+        left: -20px;
+      }                                
+    .side-bar{
+        background-color: #1b1a1b;
+        width: 250px;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left:-250px;
+        overflow-y: auto;
+        transition: 0.6s ease;
+        transition-property: left;
+        
+    }
+    header{
+        background-color:var(--color-3);
+        top: 0;
+        padding-top: 15px;
+    }
+    header img{
+        
+        width: 100px;
+        margin-top: 30px;
+        margin-bottom: 15px;
+        border-radius: 50%;
+
+        margin-left: 70px;
+    }
+    .close-btn{
+        position: absolute;
+        color: white;
+        margin: 10px;
+        font-size: 23px;
+        right: 0px;
+        cursor: pointer;
+    }
+    .close-btn:hover{
+        color: var(--color-1);
+    }
+    header h1{
+        text-align: center;
+        font-weight: 700;
+        font-size: 20px;
+        padding-bottom: 18px;
+        color: var(--color-1);
+    }
+    .menu{
+        width: 100%;
+        margin-top: 0px;
+        background-color: #000000;
+    }
+    .menu .item{
+        position: relative;
+        cursor: pointer;
+    }
+    .menu .item a{
+        color: white;
+        font-size: 16px;
+        display: block;
+        padding: 5px 30px;
+        line-height: 60px;
+    }
+    .menu .item a:hover{
+        color: var(--color-1);
+    }
+    .item i{
+        margin-right: 15px;
+    }
+    .item a .fa-angle-right{
+        position: absolute;
+        right: 0;
+        margin: 20px;
+        transition: 0.3s ease;
+    }
+    .item .sub-menu{
+        background-color: #262627;
+        display: none;
+        padding-left: 40px;
+
+    }
+    .side-bar.active{
+        left: 0;
+    }
+    
+    .sub-menu a{
+        padding-left: 40px
+    }
+    .fa-circle-question{
+              
+        color: #fc4982;
+    }
+    .fa-desktop{
+    color: #9c0992;
+    }
+    .fa-elementor{
+    color: #316ff6;
+    }
+    .fa-book-open{
+      color: #ebfd61;  
+    }
+    .fa-newspaper{
+        color: rgb(110, 2, 2);
+    }
+
+    .heading{
+        margin: 5rem auto;
+        text-align: center;
+        font-size: 35px
+    }
+    .kitchen{
+        display: flex;
+        flex-direction: row;
+        gap: 3rem;
+        width: 90%;
+        margin: auto;
+    }
+    .kitchen .text{
+        width: 50%;
+        letter-spacing: 1px;
+        margin-top: 1.5rem;
+    }
+    .kitchen .text p{
+        margin-top: 1rem;
+    }
+    .kitchen img{
+        width: 450px;
+        height: 350px;
+        margin-top: -2rem;
+        border-radius: 10px;
+    }
+    .recipe{
+        text-align: center;
+        width: 80%;
+        margin: auto;
+        margin-top: 5rem;
+    } 
+    .recipe p{
+        margin-top: 1rem;
+        letter-spacing: 1px;
+    }
+    .pictures{
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        width: 90%;
+        flex-wrap: wrap;
+        margin-top: 3rem;
+        margin: auto;
+    }
+    .pictures img{
+        width: 270px;
+        height: 250px;
+        margin-bottom: 0.5rem;
+        border-radius: 10px;
+    }
+    .amp{
+        text-align: center;
+        margin: 2rem auto;
+        margin-top: 5rem;
+    }
+    .footer{
+        padding:  2rem 5rem;
+        margin-top: 5rem;
+        display: flex;
+        flex-direction: row;
+       color: var(--color-4);
+       gap: 1rem;
+       background-color:#233b20;
+       
+    
+    }
+   
+    .footer .caps .phase{
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+    
+    }
+    .caps{
+        width: 100%;
+    }
+    .caps p{
+      width: 90%;
+      margin-top: 2%;
+      font-size: 16px;
+      font-weight: light;
+      color: rgb(249, 247, 247);
+      margin-left: -0.5%;
+    }
+    
+    .about,.categories,.contact{
+        display: flex;
+        flex-direction: column;
+        gap: 5%;
+        width: 45%;
+        text-align: left;
+        margin-bottom: 2rem;
+    }
+    .contact{
+       
+        display: flex;
+        flex-direction: column;
+        gap: 6%;
+        width: 45%;
+        text-align: left;
+        margin-bottom: 2rem;
+    
+    }
+    .footer .social-links ul{
+        margin-top: 10px;
+        display: flex;
+        flex-direction: row;
+        gap: 1.5rem;
+    }
+    .footer .social-links li  a{
+      font-size: 20px;
+      
+      transition: 0.3s ease var(--color-1);
+    
+    }
+    
+     .fa-facebook{
+        color: #316ff6;
+        border-radius: 50%;
+    }
+    .footer .social-links .fa-twitter{
+        color: #1da1f2;
+    }
+    .footer .social-links .fa-instagram{
+        color: #cd486b;
+    }
+    .footer .social-links .fa-whatsapp{
+        color: #25d366;
+    }
+     .social-links a:hover{
+        color: var(--color-1);
+    }
+    
+    .about ul li{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    font-size: 15px;
+    }
+    .categories ul li{
+        display: flex;
+        flex-direction: column;
+        margin-top: 5%;
+        font-size: 15px;
+        }
+        .contact ul li{
+            display: flex;
+            flex-direction: column;
+            margin-top: 5%;
+            font-size: 15px;
+            }
+    
+    
+    
+    .footer-item{
+        width: 30%;
+    
+        
+    }
+    
+    .footer .row{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
