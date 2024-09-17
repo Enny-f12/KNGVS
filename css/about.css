@@ -169,6 +169,7 @@ html::-webkit-scrollbar-thumb{
         text-align: center;
         margin: auto;
         margin-top: 5rem;
+        font-size: 48px;
     }
     .story{
         display: flex;
@@ -182,7 +183,7 @@ html::-webkit-scrollbar-thumb{
     gap: 1rem;
     }
     .story h3{
-        font-size: 25px;
+        font-size: 28px;
     }
     .story .text{
         width: 48%;
@@ -192,7 +193,8 @@ html::-webkit-scrollbar-thumb{
         margin-left: 3rem;
         text-align: top;
         margin-top: 0rem;
-        letter-spacing: 1px;
+        margin-bottom: 10rem;
+        letter-spacing: 0.5px;
     }
     .story p{
         margin-left:30px ;
@@ -223,12 +225,10 @@ html::-webkit-scrollbar-thumb{
         flex-direction: row;
         width: 100%;
         gap: 10rem;
-        margin: 5rem;
-        margin: auto;
+        margin-top: 10rem;
         padding: 4rem;
         align-items: center;
         justify-content: center;
-        margin-top: 5rem;
         background-color: #dbd8d8;
         color: rgb(87, 86, 86);
         place-items: center;
@@ -241,6 +241,7 @@ html::-webkit-scrollbar-thumb{
     }
     .grade h2{
         color: #159c09;
+        font-size: 30px;
     }
     .grade .grade_1{
         display: flex;
@@ -251,16 +252,19 @@ html::-webkit-scrollbar-thumb{
         flex-basis: 50%;
 
     }
+    .story_2 .text h3{
+        font-size: 28px;
+    }
 
     .mission
     {
         display: flex;
         flex-direction: row;
-        margin: 5rem auto;
+        margin: 10rem auto;
         padding: 2rem;
         width: 96%;
         gap: 5rem;
-        margin-top: 5rem;
+        
         
     }
 
@@ -271,7 +275,7 @@ html::-webkit-scrollbar-thumb{
     }
     .mission .text{
         width: 55%;
-        margin-top: 2rem;
+        margin-top: 1rem;
     
     
     }
@@ -280,17 +284,19 @@ html::-webkit-scrollbar-thumb{
         margin-top: 1rem;
         letter-spacing: 0.5px;
     }
-    .history
-    {
+    .mission .text h2{
+        font-size: 28px;
+        margin-top: -0.5rem;
+    }
+    .history{
         display: flex;
         flex-direction: row;
-        margin: 5rem auto;
+        margin: 10rem auto;
         padding: 2rem;
         width: 96%;
         gap: 3rem;
         margin-top: 5rem;
-        
-    }
+        }
 
     .history img{
         width: 450px;
@@ -299,7 +305,7 @@ html::-webkit-scrollbar-thumb{
     }
     .history .text{
         width: 55%;
-        margin-top: 2rem;
+        margin-top: 1rem;
         letter-spacing: 0.5px;
     
     
@@ -307,6 +313,9 @@ html::-webkit-scrollbar-thumb{
     .history .text p{
         margin-left: 35px;
         margin-top: 1rem;
+    }
+    .history .text h2{
+        font-size: 28px;
     }
     .footer{
         padding:  2rem 5rem;

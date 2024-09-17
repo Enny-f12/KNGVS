@@ -167,13 +167,13 @@ html::-webkit-scrollbar-thumb{
         
     }
     .advocacy p{
-   letter-spacing: 1px;
+   letter-spacing: 0.5px;
    margin-top: 2rem;
    text-align: center;
     }
     .advocacy h2{
         text-align: center;
-        font-size: 35px;
+        font-size: 48px;
     }
     .footer{
         padding:  2rem 5rem;

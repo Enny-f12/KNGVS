@@ -175,7 +175,14 @@ html::-webkit-scrollbar-thumb{
     }
     .train .text{
         width: 50%;
-        letter-spacing: 1px;
+        letter-spacing: 0.5px;
+    }
+    .train .text p{
+        margin-top: -1.5rem;
+    }
+    .train .text h3{
+        font-size: 25px;
+        letter-spacing: 0px;
     }
     .train img{
         width: 400px;

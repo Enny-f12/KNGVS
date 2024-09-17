@@ -168,7 +168,8 @@ html::-webkit-scrollbar-thumb{
     flex-direction: row;
     gap: 2rem;
     width: 85%;
-    margin: auto;
+    margin: 5rem auto;
+    margin-bottom: 10rem;
 }
 .adv .text{
     width: 50%;

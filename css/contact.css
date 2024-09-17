@@ -190,6 +190,8 @@ html::-webkit-scrollbar-thumb{
         height: 40vh;
         margin: auto;
         margin-bottom: 5%;
+        background-color: #2be61a;
+        background-blend-mode: multiply;
     }
     
     

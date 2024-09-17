@@ -57,7 +57,7 @@ html::-webkit-scrollbar-thumb{
       .menu-btn{
         position: fixed;
         color:var(--color-1);
-        font-size: 35px;
+        font-size: 40px;
         cursor: pointer;
         margin: 20px;
         transition: 0.3s ease;
@@ -204,7 +204,7 @@ html::-webkit-scrollbar-thumb{
      /*sub-section*/
      .subsection{
         margin: 5%;
-        margin-top: 10%;
+        margin-top: 7rem;
         width: 90%;
         display: grid;
         align-items: center;
@@ -229,7 +229,6 @@ html::-webkit-scrollbar-thumb{
         .subsection_text p{
             width: 80%;
             font-size: 16px;
-            font-weight: 100;
             margin-top: 0.7%;
             margin-left: 38px;
         }
@@ -332,7 +331,7 @@ html::-webkit-scrollbar-thumb{
         align-items: center;
         justify-content: center;
         margin: auto;
-        margin-top:10%;
+        margin-top:10rem;
     }
     @media (max-width:1200px){
         .hero_section{
@@ -342,7 +341,7 @@ html::-webkit-scrollbar-thumb{
             width: 90%;
             gap: 3rem;
             margin: auto;
-            margin-top:5rem;
+            margin-top:10rem;
         align-items: center;
         justify-content: center;
         }
@@ -353,6 +352,9 @@ html::-webkit-scrollbar-thumb{
         object-fit: cover;
         margin-left: 27px;
         border-radius: 5%;
+    }
+    .hero_section h2{
+        font-size: 48px;
     }
     .hero_text{
         margin-top: 1%;
@@ -378,7 +380,6 @@ html::-webkit-scrollbar-thumb{
         width: 90%;
         margin-left: 27px;
         font-size: 16px;
-        font-weight: light;
         margin-top: 0.7%;
     }
     @media(max-width:480px){
@@ -388,7 +389,7 @@ html::-webkit-scrollbar-thumb{
     }
     .programs{
         margin: auto;
-        margin-top: 10%;
+        margin-top: 10rem;
         width: 90%;
         display: flex;
         align-items: center;
@@ -397,7 +398,7 @@ html::-webkit-scrollbar-thumb{
      .frames_two{
         display: flex;
         flex-direction: row;
-        gap: 2%;
+        gap: 1rem;
         width: 90%;
         margin-top: 40px;
         margin-left: 27px;
@@ -420,30 +421,30 @@ html::-webkit-scrollbar-thumb{
             
          } 
          .one img{
-            width: 300px;
+            width: 100%;
             height: 60vh;
             object-fit: cover;
-            border-radius: 5%;
+            border-radius: 10px;
             
          }
          .two img{
-            width: 300px;
+            width: 100%;
             height: 60vh;
-            border-radius: 5%;
+            border-radius: 10px;
             object-fit: cover;
             
          }
          .three img{
-            width: 300px;
+            width: 100%;
             height: 60vh;
             object-fit: cover;
-            border-radius: 5%;
+            border-radius: 10px;
            
          }
          .four img{
-            width: 300px;
+            width: 100%;
             height: 60vh;
-            border-radius: 5%;
+            border-radius: 10px;
             object-fit: cover;
            
          }
@@ -463,30 +464,30 @@ html::-webkit-scrollbar-thumb{
      }
      @media(min-width:1100px){
      .one img{
-        width: 100%;
+        width: 240px;
         height: 60vh;
         object-fit: cover;
-        border-radius: 5%;
+        border-radius: 10px;
         
      }
      .two img{
-        width: 100%;
+        width: 240px;
         height: 60vh;
-        border-radius: 5%;
+        border-radius: 10px;
         object-fit: cover;
         
      }
      .three img{
-        width: 100%;
+        width: 240px;
         height: 60vh;
         object-fit: cover;
-        border-radius: 5%;
+        border-radius: 10px;
        
      }
      .four img{
-        width: 100%;
+        width: 240px;
         height: 60vh;
-        border-radius: 5%;
+        border-radius: 10px;
         object-fit: cover;
        
      }
@@ -495,9 +496,9 @@ html::-webkit-scrollbar-thumb{
      .partners{
         display: flex;
         flex-direction: column;
-        width: 93%;
-        margin: 5%;
-        margin-top: 10%;
+        width: 90%;
+        margin: auto;
+        margin-top: 10rem;
         gap: 3rem;
         align-items: center;
         justify-content: center;
@@ -505,7 +506,7 @@ html::-webkit-scrollbar-thumb{
     
      }
     .text {
-        width:96% ;
+        width:90% ;
         margin-top: 1rem;
         margin-bottom: 1rem;
 
@@ -517,7 +518,6 @@ html::-webkit-scrollbar-thumb{
      }
      .text p{
         line-height: 1.5;
-        font-weight: light;
         font-size: 16px;
         width: 96%;
         margin-left: 27px;
@@ -533,7 +533,9 @@ html::-webkit-scrollbar-thumb{
      
      @media(max-width:1200px){
         .logos_2{
+            width: 90%;
             display: flex;
+            margin: auto;
             flex-direction: row;
             gap:2rem;
             flex-wrap: wrap;
@@ -541,42 +543,50 @@ html::-webkit-scrollbar-thumb{
             justify-content: center;
          } 
          .logos_1{
+            width: 90%;
             display: flex;
             flex-direction: row;
             gap:2rem;
+            margin: auto;
             flex-wrap: wrap;
             align-items: center;
             justify-content: center;
      }}
      @media(min-width:1200px){
      .logos_1{
+        width: 90%;
         display: flex;
         flex-direction: row;
         gap:2rem;
+        margin: auto;
     
      }
      .logos_2{
+        width: 90%;
         display: flex;
         flex-direction: row;
         gap:2rem;
+        margin: auto;
      }
     }
      .logos_1 img{
-        width: 160px;
+        width: 150%;
         object-fit: cover;
-        height: 160px;
+        height: 25vh;
+        border-radius: 20%;
      }
      .logos_2 img{
-        width: 160px;
+        width: 150%;
         object-fit: cover;
-        height: 160px;
+        height: 25vh;
+        border-radius: 20%;
      }
 
      /*news*/
      .news{
         width: 90%;
-       margin: 5%;
-    margin-top: 10%;
+       margin: auto;
+    margin-top: 10rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -610,12 +620,13 @@ html::-webkit-scrollbar-thumb{
         gap: 20%;
         margin-left: 28px;
         margin-top: 40px;
+        margin: auto;
 
     }
     .frames_three{
         display: flex;
         flex-direction: row;
-        gap: 2%;
+        gap: 2rem;
         width: 90%;
         margin-top: 40px;
         margin-left: 27px;
@@ -784,7 +795,7 @@ html::-webkit-scrollbar-thumb{
         display: flex;
         flex-direction: row;
         width: 100%;
-        margin-top: 10%;
+        margin-top: 10rem;
         background-color: #edebeb;
         padding: 5%;
         align-items: center;
@@ -881,8 +892,12 @@ html::-webkit-scrollbar-thumb{
     
     }
 @media(min-width:1080px){
-    .get_involved_text{
+    .get_involved_text {
         width: 60%;
+    
+    }
+    .get_involved_text h2{
+        margin-top: -0.5rem;
     }
 }
 
@@ -901,6 +916,9 @@ html::-webkit-scrollbar-thumb{
     }
     .get_button .button{
         margin-top: 30px;
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
         
     }
     .get_button a{
@@ -953,7 +971,7 @@ html::-webkit-scrollbar-thumb{
     .container{
         width: 96%;
         padding: 5%;
-        margin-top: 7%;
+        margin-top: 10rem;
         margin-bottom: 3%;
     }
     .container > p,
@@ -1046,7 +1064,7 @@ html::-webkit-scrollbar-thumb{
    
         .footer{
             padding:  3rem 5rem;
-            margin-top: -2rem;
+            margin-top: 5rem;
             display: flex;
             flex-direction: row;
            color: var(--color-4);

@@ -170,7 +170,7 @@ html::-webkit-scrollbar-thumb{
     gap: 1rem;
 }
 .vacation h2{
-    font-size: 30px;
+    font-size: 48px;
 }
 .vacation p{
 width: 70%;
@@ -195,12 +195,12 @@ margin-top: 1rem;
     border-radius: 10px;
 }
 .garden .text h2{
-    font-size: 25px;
+    font-size: 28px;
     color: var(--color-1);
 }
 .garden .text{
   flex-basis: 50%;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 .garden .text p{
     margin-top: 1rem;
@@ -222,13 +222,13 @@ margin-top: 1rem;
 .educatio .text{
   flex-basis: 50%;
   gap: 1rem;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 .educatio .text p{
     margin-top: 1rem;
 }
 .educatio .text h2{
-    font-size: 25px;
+    font-size: 28px;
     color: var(--color-1);
 }
 
@@ -248,13 +248,13 @@ margin-top: 1rem;
 .exercise .text{
   flex-basis: 50%;
   gap: 1rem;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 .exercise .text p{
     margin-top: 1rem;
 }
 .exercise .text h2{
-    font-size: 25px;
+    font-size: 28px;
     color: var(--color-1);
 }
 .school{
@@ -265,6 +265,7 @@ margin-top: 1rem;
 }
 .school h2{
     text-align: center;
+    font-size: 35px;
 }
 .x{
     display: flex;
