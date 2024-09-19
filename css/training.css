@@ -273,6 +273,7 @@ html::-webkit-scrollbar-thumb{
         .train .text{
             width: 100%;
             letter-spacing: 0.5px;
+            text-align: justify;
         }
         .train img{
             width: 100%;
@@ -303,7 +304,7 @@ html::-webkit-scrollbar-thumb{
             border-radius: 10px;
         }
         .sessions{
-            text-align: center;
+            text-align: justify;
             margin: auto;
             margin-bottom: 2rem;
             width: 90%;

@@ -284,6 +284,7 @@ html::-webkit-scrollbar-thumb{
                 margin-left: 0.5rem;
                 letter-spacing: 0.5px;
                 margin-bottom: 10rem;
+                text-align: justify;
             }
             .story p{
                 margin-left:30px ;
@@ -370,6 +371,7 @@ html::-webkit-scrollbar-thumb{
     }
     .story_2 .text{
         flex-basis: 50%;
+        text-align: justify;
 
     }
     .story_2 .text h3{
@@ -401,6 +403,7 @@ html::-webkit-scrollbar-thumb{
         .mission .text{
             width: 100%;
             margin-top: 1rem;
+            text-align: justify;
         
         
         }
@@ -467,6 +470,7 @@ html::-webkit-scrollbar-thumb{
             width: 100%;
             margin-top: 1rem;
             letter-spacing: 0.5px;
+            text-align: justify;
         
         
         }

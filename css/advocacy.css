@@ -169,7 +169,8 @@ html::-webkit-scrollbar-thumb{
     .advocacy p{
    letter-spacing: 0.5px;
    margin-top: 2rem;
-   text-align: center;
+
+   text-align:justify;
     }
     .advocacy h2{
         text-align: center;

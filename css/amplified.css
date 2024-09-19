@@ -249,6 +249,7 @@ html::-webkit-scrollbar-thumb{
     .kitchen .text{
         width: 100%;
         letter-spacing: 0.2px;
+        text-align:justify;
     }
     .kitchen .text p{
         margin-top: 1rem;
@@ -262,10 +263,11 @@ html::-webkit-scrollbar-thumb{
         border-radius: 10px;
     }
     .recipe{
-        text-align: center;
+        
         width: 80%;
         margin: auto;
         margin-top: 5rem;
+        text-align:justify;
     } 
     .recipe h2{
         font-size: 30px;
