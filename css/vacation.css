@@ -514,3 +514,19 @@ font-size: 15px;
     flex-wrap: wrap;
     gap: 2rem;
 }
+@media(max-width:480px){
+    .footer{
+        padding:  3rem 2rem;
+        margin-top: 5rem;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+       color: var(--color-4);
+       gap: 2rem;
+       background-color:#233b20;
+       text-align: justify;
+       
+    
+    }
+    
+}

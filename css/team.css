@@ -242,6 +242,10 @@ html::-webkit-scrollbar-thumb{
     height: 350px;
     border-radius: 10px;
    }
+
+
+
+
    .footer{
     padding:  2rem 5rem;
     margin-top: 5rem;
@@ -351,4 +355,21 @@ font-size: 15px;
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
+}
+
+@media(max-width:480px){
+    .footer{
+        padding:  3rem 2rem;
+        margin-top: 5rem;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+       color: var(--color-4);
+       gap: 2rem;
+       background-color:#233b20;
+       text-align: justify;
+       
+    
+    }
+    
 }
