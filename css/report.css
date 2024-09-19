@@ -270,6 +270,10 @@ html::-webkit-scrollbar-thumb{
         flex-wrap: wrap;
         gap: 2rem;
     }
+
+
+
+
 .heading h2{
     font-size: 35px;
     text-align: center;
@@ -320,4 +324,64 @@ html::-webkit-scrollbar-thumb{
 }
 .i{
     width: 50%;
+}
+
+
+
+@media(max-width:480px){
+    .heading h2{
+        font-size: 35px;
+        text-align: center;
+        margin: 5rem auto;
+        margin-bottom: -2rem;
+    }
+    .report{
+        width: 90%;
+        margin: auto;
+        padding: 0.5rem;
+    }
+    .r{
+        width: 90%;
+        margin: 2rem auto;
+       
+    }
+    .r p{
+        margin-top: 1rem;
+    }
+    .j{
+        width: 90%;
+        margin: 2rem auto;
+       
+    }
+    .j p{
+        margin-top: 1rem;
+    }
+    .all{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        width: 90%;
+        margin: 5rem auto;
+        
+    }
+    .all-2{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        width: 90%;
+        margin: auto;
+        margin-top: 15rem;
+        margin-bottom: 5rem;
+        
+        
+    }
+    .h{
+        width: 100%;
+        
+    }
+    .i{
+        width: 100%;
+    }
+    
+      
 }

@@ -160,12 +160,13 @@ html::-webkit-scrollbar-thumb{
         color: rgb(110, 2, 2);
     }
 
+
     .heading{
         margin: 5rem auto;
         text-align: center;
     }
     .heading h2{
-        font-size: 35px;
+        font-size: 48px;
     }
     .kitchen{
         display: flex;
@@ -198,7 +199,7 @@ html::-webkit-scrollbar-thumb{
         margin-top: 5rem;
     } 
     .recipe h2{
-        font-size: 24px;
+        font-size: 35px;
     }
     .recipe p{
         margin-top: 1rem;
@@ -225,6 +226,85 @@ html::-webkit-scrollbar-thumb{
         margin-top: 5rem;
         font-size: 24px;
     }
+
+
+
+
+@media(max-width:480px){
+    .heading{
+        margin: 5rem auto;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    .heading h2{
+        font-size: 35px;
+    }
+    .kitchen{
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
+        width: 90%;
+        margin: auto;
+    }
+    .kitchen .text{
+        width: 100%;
+        letter-spacing: 0.2px;
+    }
+    .kitchen .text p{
+        margin-top: 1rem;
+    }
+    .kitchen .text h2{
+        font-size: 24px;
+    }
+    .kitchen img{
+        width: 100%;
+        height: 350px;
+        border-radius: 10px;
+    }
+    .recipe{
+        text-align: center;
+        width: 80%;
+        margin: auto;
+        margin-top: 5rem;
+    } 
+    .recipe h2{
+        font-size: 30px;
+    }
+    .recipe p{
+        margin-top: 1rem;
+        letter-spacing: 0.2px;
+    }
+    .pictures{
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        width: 90%;
+        flex-wrap: wrap;
+        margin-top: 3rem;
+        margin: auto;
+    }
+    .pictures img{
+        width: 100%;
+        height: 250px;
+        margin-bottom: 0.5rem;
+        border-radius: 10px;
+    }
+    .amp{
+        text-align: center;
+        margin: 2rem auto;
+        margin-top: 5rem;
+        font-size: 24px;
+    }
+
+
+
+}
+
+
+
+
+
+
     .footer{
         padding:  2rem 5rem;
         margin-top: 5rem;

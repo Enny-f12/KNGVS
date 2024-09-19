@@ -175,6 +175,18 @@ html::-webkit-scrollbar-thumb{
         text-align: center;
         font-size: 48px;
     }
+
+    @media(max-width:480px){
+        .advocacy p{
+            letter-spacing: 0.2px;
+            margin-top: 2rem;
+            
+             }
+             .advocacy h2{
+                 text-align: center;
+                 font-size: 35px;
+             }
+    }
     .footer{
         padding:  2rem 5rem;
         margin-top: 2rem;
