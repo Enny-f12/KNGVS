@@ -8,15 +8,18 @@
 }
 :root{
     --color-1: #159c09;
-    --color-2: #D21404;
-    --color-3:#000000;
+    --color-2: #c9e4ca;
+    --color-3:#333;
     --color-4:#ffffff;
-    --color-5:#666;
-    --color-6:#ccc;
+    --color-5:#333;
+    --color-6:#0a7300;
     --color-7: rgba(0,0,0,.7);
+    --color-8:#f2f2f2;
+    --color-9:#ffc107;
     --box-shadow:0.5rem 1 rem rgba(0,0,0,.1);
 
 }
+
 * > img{
     user-select: none;
     pointer-events: none;
@@ -51,6 +54,9 @@ html::-webkit-scrollbar-thumb{
         100%{
             transform: translateY(0);
         }
+    }
+    p{
+        color: var(--color-3);
     }
     
                                             /*navbar menu*/
@@ -231,10 +237,11 @@ html::-webkit-scrollbar-thumb{
      .subsection{
         margin: 5%;
         margin-top: 7rem;
-        width: 90%;
+        width: 80%;
         display: grid;
         align-items: center;
         justify-content: center;
+        margin: 10rem auto;
      }
     #vertical_line{
         height: 50px;
@@ -251,12 +258,15 @@ html::-webkit-scrollbar-thumb{
         }
         .line h2{
             font-size: 48px;
+            font-family: lato;
         }
         .subsection_text p{
-            width: 80%;
+            width: 90%;
             font-size: 16px;
             margin-top: 1rem;
             margin-left: 38px;
+            text-align: justify;
+            
         }
         .frames{
             display: flex;
@@ -283,7 +293,11 @@ html::-webkit-scrollbar-thumb{
             font-size: 30px;
             text-align: center;
             width: 100%;
+            transition: transform 2s ease-in-out;
         }
+    .frames .nut:hover{
+        transform: rotate(360deg);
+    }
         .frames .dev{
             background-image: url('../images/KNGVS\ Pro_20240909_000141_1.png');
             padding-top: 100px;
@@ -299,6 +313,11 @@ html::-webkit-scrollbar-thumb{
             font-size: 30px;
             text-align: center;
             width: 100%;
+            transition: transform 2s ease-in-out;
+        
+        }
+        .frames .dev:hover{
+            transform: rotate(-360deg);
         }
         .frames .edu{
             background-image: url('../images/KNGVS\ Pro_20240909_000128_1.png');
@@ -306,7 +325,7 @@ html::-webkit-scrollbar-thumb{
             padding-bottom: 100px;
             border-radius: 10px;
             background-color: #cacaca;
-
+            transition: transform 2s ease-in-out;
             background-size: cover;
             color: white;
             background-blend-mode: multiply;
@@ -316,6 +335,9 @@ html::-webkit-scrollbar-thumb{
             font-size: 30px;
             text-align: center;
             width: 100%;
+        }
+        .frames .edu:hover{
+            transform: rotate(180deg);
         }
         .subsection_button a{
        
@@ -365,12 +387,13 @@ html::-webkit-scrollbar-thumb{
     .hero_section{
         display: flex;
         flex-direction: row;
-        width: 90%;
-        gap: 3%;
-        
+        width: 100%;
+        padding: 5rem 8rem;
+        gap: 5rem;
+        background-color:#eefbee;
         align-items: center;
         justify-content: center;
-        margin: auto;
+        margin:  10rem auto;
         margin-top:10rem;
     }
     @media (max-width:1200px){
@@ -388,10 +411,10 @@ html::-webkit-scrollbar-thumb{
     }
     .hero_section img{
         width: 100%;
-        height: 60vh;
+        height: 350px;
         object-fit: cover;
         margin-left: 27px;
-        border-radius: 5%;
+        border-radius: 10px;
     }
     .hero_section h2{
         font-size: 48px;
@@ -405,8 +428,9 @@ html::-webkit-scrollbar-thumb{
         margin-top: 0.7%;
         line-height: 1.5;
         word-wrap: break-word;
-        width: 80%;
+        width: 90%;
         margin-left: 38px;
+        text-align: justify;
 
     }
 
@@ -428,6 +452,7 @@ html::-webkit-scrollbar-thumb{
     /*our programs*/
     .programs_text p{
         width: 90%;
+    
         margin-left: 27px;
         font-size: 16px;
         margin-top: 0.7%;
@@ -445,22 +470,26 @@ html::-webkit-scrollbar-thumb{
         }
     }
     .programs{
-        margin: auto;
-        margin-top: 10rem;
-        width: 90%;
+      
+        
+        width: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
+        margin: 10rem auto;
+        padding: 5rem 8rem;
      }
      .frames_two{
         display: flex;
         flex-direction: row;
         gap: 1rem;
         width: 90%;
-        margin-top: 40px;
+        margin-top: 3rem;
+        
         margin-left: 27px;
         align-items: center;
         justify-content: center;
+        
         
      }
      @media(max-width:1100px){
@@ -521,29 +550,29 @@ html::-webkit-scrollbar-thumb{
      }
      @media(min-width:1100px){
      .one img{
-        width: 240px;
-        height: 60vh;
+        width: 220px;
+        height: 350px;
         object-fit: cover;
         border-radius: 10px;
         
      }
      .two img{
-        width: 240px;
-        height: 60vh;
+        width: 220px;
+        height: 350px;
         border-radius: 10px;
         object-fit: cover;
         
      }
      .three img{
-        width: 240px;
-        height: 60vh;
+        width: 220px;
+        height: 350px;
         object-fit: cover;
         border-radius: 10px;
        
      }
      .four img{
-        width: 240px;
-        height: 60vh;
+        width: 220px;
+        height: 350px;
         border-radius: 10px;
         object-fit: cover;
        
@@ -553,14 +582,42 @@ html::-webkit-scrollbar-thumb{
      .partners{
         display: flex;
         flex-direction: column;
-        width: 90%;
+        width: 100%;
         margin: auto;
         margin-top: 10rem;
         gap: 3rem;
         align-items: center;
         justify-content: center;
+        background-color: #eefbee;
+        padding: 5rem 8rem;
        
     
+     }
+     .logo-slider{
+        overflow: hidden;
+        width: 100%;
+        z-index: 1000;
+        margin-left: 27px;
+     }
+     .logo-slide{
+        display: flex;
+        flex-wrap: nowrap;
+        width: 100%;
+        animation: slide 30s linear infinite;
+        margin-left: 27px;
+     }
+     .logo-slide img{
+        width: 150px;
+        margin: 30px;
+        height: 120px;
+     }
+     @keyframes slide{
+        0%{
+            transform: translateX(0);
+        }
+        100%{
+            transform: translateX(-100%);
+        }
      }
     .text {
         width:90% ;
@@ -582,80 +639,26 @@ html::-webkit-scrollbar-thumb{
         margin-top: 0.7%;
         
      }
-    .logo{
-        display: flex;
-        flex-direction: column;
-        gap: 3rem;
-    
-     }
+  
      
-     @media(max-width:1200px){
-        .logos_2{
-            width: 90%;
-            display: flex;
-            margin: auto;
-            flex-direction: row;
-            gap:2rem;
-            flex-wrap: wrap;
-            align-items: center;
-            justify-content: center;
-         } 
-         .logos_1{
-            width: 90%;
-            display: flex;
-            flex-direction: row;
-            gap:2rem;
-            margin: auto;
-            flex-wrap: wrap;
-            align-items: center;
-            justify-content: center;
-     }}
-     @media(min-width:1200px){
-     .logos_1{
-        width: 90%;
-        display: flex;
-        flex-direction: row;
-        gap:2rem;
-        margin: auto;
     
-     }
-     .logos_2{
-        width: 90%;
-        display: flex;
-        flex-direction: row;
-        gap:2rem;
-        margin: auto;
-     }
-    }
-     .logos_1 img{
-        width: 60%;
-        height: 180px;
-        object-fit: cover;
-        
-    
-     }
-     .logos_2 img{
-        width: 60%;
-        height: 180px;
-        object-fit: cover;
-        
-        
-     }
 
      /*news*/
      .news{
-        width: 90%;
+        width: 100%;
        margin: auto;
     margin-top: 10rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: white;
+    padding: 5rem 8rem;
     
     }
     .news_image{
-        width:300px;
-        height: 50vh;
+       max-width:100%;
+        height: 350px;
         object-fit: cover;
     }
     .news_text{
@@ -688,7 +691,7 @@ html::-webkit-scrollbar-thumb{
         display: flex;
         flex-direction: row;
         gap: 2rem;
-        width: 90%;
+        width: 80%;
         margin-top: 40px;
         margin-left: 27px;
         flex: 1;
@@ -776,22 +779,22 @@ html::-webkit-scrollbar-thumb{
 
      
      .five img{
-        width: 320px;
-        height: 60vh;
+        width: 290px;
+        height: 350px;
         object-fit: cover;
         border-radius: 5%;
 
      }
      .six img{
-        width: 320px;
-        height: 60vh;
+        width: 290px;
+        height: 350px;
         border-radius: 5%;
         object-fit: cover;
     
      }
      .seven img{
-        width: 320px;
-        height: 60vh;
+        width: 290px;
+        height: 350px;
         object-fit: cover;
         border-radius: 5%;
         
@@ -856,11 +859,12 @@ html::-webkit-scrollbar-thumb{
         display: flex;
         flex-direction: row;
         width: 100%;
-        margin-top: 10rem;
-        background-color: #edebeb;
-        padding: 5%;
+        margin-top:7rem;
+        background-color: #eefbee;
+        padding: 5rem 8rem;
         align-items: center;
         justify-content: center;
+        margin-bottom: 10rem;
        
     }
     
@@ -934,6 +938,7 @@ html::-webkit-scrollbar-thumb{
         color: var(--color-4);
         user-select: none;
         background-color: var(--color-1);
+        z-index: 1000;
         
     }
     .get_button .button .h:hover{
@@ -954,8 +959,8 @@ html::-webkit-scrollbar-thumb{
         line-height: 1.5;
         color:rgb(49, 49, 49);
         user-select: none;
-        background-color: #f0eded;
-        border:0.2px solid rgb(118, 117, 117)
+        background-color: var(--color-4);
+        border:0.2px solid var(--color-5);
         
     }
     .get_button .button .g:hover{
@@ -1040,15 +1045,15 @@ html::-webkit-scrollbar-thumb{
 
     /*Faq*/
     .container{
-        width: 96%;
-        padding: 5%;
-        margin-top: 10rem;
+        width: 100%;
+        padding: 5rem 8rem;
+        margin-top: 10rem auto;
         margin-bottom: 3%;
     }
     .container > p,
     .container > h2{
        
-        text-align: left;
+        text-align: justify;
     }
    
 
@@ -1059,11 +1064,10 @@ html::-webkit-scrollbar-thumb{
     }
     .container p{
         line-height: 1.5;
-        font-weight: light;
         font-size: 16px;
         width: 100%;
         margin-left: 28px;
-        margin-top: 0.7%;
+        margin-bottom: 0.5rem;
         
     }
     .accordion{
@@ -1323,32 +1327,33 @@ html::-webkit-scrollbar-thumb{
             height: 100%;
             color: white;
             font-size: 50px;
-            margin-left: 1rem;
-            z-index: 2;
+        text-align: center;
+            z-index: 1000;
             padding-top: 150px;
             padding-bottom: 200px;
+            
         }
         @keyframes bgChange{
             0%{
                 background-image: url(../images/IMG_20210817_111641.jpg);
             }
-            20%{
-                background-image: url(../images/IMG_20210817_111641.jpg);
+            75%{
+                background-image: url(../images/3f6f8f5d-986f-49cf-abb6-012c5772e384.jpg);
                }
             25%{
-             background-image: url(../images/KNGVS\ Pro_20240909_000317_1.png);
+             background-image: url(../images/DSC_0440.jpg);
             }
             45%{
-                background-image: url(../images/KNGVS\ Pro_20240910_120349_1.png);
+                background-image: url(../images/IMG-20210827-WA0018.jpg);
             }
             50%{
-                background-image: url(../images/KNGVS\ Pro_20240909_000336_1.png);
+                background-image: url(../images/DSC_1666.jpg);
             }
             70%{
-                background-image: url(../images/KNGVS\ Pro_20240909_000336_1.png);
+                background-image: url(../images/IMG-20240910-WA0020.jpg);
             }
-            75%{
-                background-image: url(../images/KNGVS\ Pro_20240910_151717_1.png);
+            20%{
+                background-image: url(../images/IMG_1553.jpg);
             }
             95%{
                 background-image: url(../images/KNGVS\ Pro_20240910_151717_1.png);

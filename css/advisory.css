@@ -8,12 +8,14 @@
 }
 :root{
     --color-1: #159c09;
-    --color-2: #D21404;
-    --color-3:#000000;
+    --color-2: #c9e4ca;
+    --color-3:#333;
     --color-4:#ffffff;
-    --color-5:#666;
-    --color-6:#ccc;
+    --color-5:#333;
+    --color-6:#0a7300;
     --color-7: rgba(0,0,0,.7);
+    --color-8:#f2f2f2;
+    --color-9:#ffc107;
     --box-shadow:0.5rem 1 rem rgba(0,0,0,.1);
 
 }
@@ -197,13 +199,16 @@ html::-webkit-scrollbar-thumb{
     display: flex;
     flex-direction: row;
     gap: 2rem;
-    width: 85%;
-    margin: 5rem auto;
+    width: 100%;
     margin-bottom: 10rem;
+    padding: 2rem 8rem;
+    align-items: center;
+            justify-content: center;
 }
 .adv .text{
-    width: 50%;
+    width: 70%;
     margin-top: 1rem;
+    text-align: justify;
 }
 .adv img{
     width: 480px;
@@ -212,6 +217,9 @@ html::-webkit-scrollbar-thumb{
     border-radius: 10px;
 }
 }
+
+
+
 .footer{
     padding:  2rem 5rem;
     margin-top: 5rem;
