@@ -1408,21 +1408,21 @@
         
             }
         .five img{
-            width: 240px;
+            width: 260px;
             height: 350px;
             object-fit: cover;
             border-radius: 5%;
     
          }
          .six img{
-            width: 240px;
+            width: 260px;
             height: 350px;
             border-radius: 5%;
             object-fit: cover;
         
          }
          .seven img{
-            width: 240px;
+            width: 260px;
             height: 350px;
             object-fit: cover;
             border-radius: 5%;
@@ -2149,7 +2149,7 @@
             margin: auto;
             line-height: 1.5;
             text-align: center;
-            margin-top: -3rem;
+            
             
 
         }

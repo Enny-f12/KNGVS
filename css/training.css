@@ -258,7 +258,132 @@ html::-webkit-scrollbar-thumb{
         color: var(--color-4);
         background-color: var(--color-3);
     }
+    @media(max-width:950px){
+        .training h2{
+            text-align: center;
+            font-size: 42px;
+            margin: 5rem auto;
+            margin-bottom: 1rem;
+        }
+        .train{
+            display: flex;
+            margin: auto ;
+            width: 90%;
+            flex-direction: column;
+            margin-bottom: 2rem;
+            gap: 3rem;
+            padding: 1rem;
+    
+        }
+        .train .text{
+            width: 100%;
+            letter-spacing: 0.2px;
+            text-align: justify;
+        }
+        .train img{
+            width: 600px;
+            height: 400px;
+            border-radius: 10px;
+            margin-bottom: 5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: auto;
 
+        }
+        .train .text h3{
+            font-size: 24px;
+            letter-spacing: 0px;
+        }
+        .pictures{
+            display: flex;
+            flex-direction: row;
+            gap: 1rem;
+            width: 90%;
+            flex-wrap: wrap;
+            margin-top: 3rem;
+            margin: auto;
+            align-items: center;
+            justify-content: center;
+            padding: 1rem;
+        }
+        .pictures img{
+            width: 40%;
+            height: 250px;
+            margin-bottom: 1rem;
+            border-radius: 10px;
+        }
+        .sessions{
+            text-align: justify;
+            margin: auto;
+            margin-bottom: 2rem;
+            width: 90%;
+            padding: 1rem;
+        }
+    }
+    @media(max-width:700px){
+        .training h2{
+            text-align: center;
+            font-size: 42px;
+            margin: 5rem auto;
+            margin-bottom: 1rem;
+        }
+        .train{
+            display: flex;
+            margin: auto ;
+            width: 90%;
+            flex-direction: column;
+            margin-bottom: 2rem;
+            gap: 3rem;
+            padding: 1rem;
+    
+        }
+        .train .text{
+            width: 100%;
+            letter-spacing: 0.2px;
+            text-align: justify;
+        }
+        .train img{
+            width: 420px;
+            height: 400px;
+            border-radius: 10px;
+            margin-bottom: 5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: auto;
+
+        }
+        .train .text h3{
+            font-size: 24px;
+            letter-spacing: 0px;
+        }
+        .pictures{
+            display: flex;
+            flex-direction: row;
+            gap: 1rem;
+            width: 90%;
+            flex-wrap: wrap;
+            margin-top: 3rem;
+            margin: auto;
+            align-items: center;
+            justify-content: center;
+            padding: 1rem;
+        }
+        .pictures img{
+            width: 40%;
+            height: 250px;
+            margin-bottom: 1rem;
+            border-radius: 10px;
+        }
+        .sessions{
+            text-align: justify;
+            margin: auto;
+            margin-bottom: 2rem;
+            width: 90%;
+            padding: 1rem;
+        }
+    }
     @media(max-width:480px){
         .training h2{
             text-align: center;
@@ -427,6 +552,19 @@ html::-webkit-scrollbar-thumb{
         display: flex;
         flex-wrap: wrap;
         gap: 2rem;
+    }
+    @media(max-width:900px){
+        .footer{
+            padding:  4rem 2rem;
+            margin-top: 5rem;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+           color: var(--color-4);
+           gap: 2rem;
+           background-color:#233b20;
+           text-align: justify;
+        }
     }
     @media(max-width:480px){
         .footer{

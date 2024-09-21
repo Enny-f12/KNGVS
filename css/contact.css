@@ -304,7 +304,8 @@ html::-webkit-scrollbar-thumb{
     width: 80%;
         font-size: 16px;
         font-weight: 100;
-        margin-top: 0.2rem;}
+        margin-top: 0.2rem;
+    color: var(--color-3);}
     
       
         .fill .input{
@@ -441,37 +442,39 @@ html::-webkit-scrollbar-thumb{
             color: var(--color-1);
             align-items: left;
         }
-         .social-links{
+        .social-link ul{
             margin-top: 15px;
             display: flex;
             flex-direction: row;
-            gap: 3%;
+            gap: 2rem;
+            list-style: none;
         }
-        .social-links li  a{
+        
+        .social-link li  a{
           font-size: 20px;
           
           transition: o.3s ease var(--color-1);
         
         }
-         .social-links li  a:hover{
+         .social-link li  a:hover{
             transform: translate(0, -10%);
         }
-        .social-links .fa-facebook{
+        .social-link .fa-facebook{
             color: #316ff6;
             background-color: white;
             border: none;
             border-radius: 50%;
         }
-        .social-links .fa-twitter{
+        .social-link .fa-twitter{
             color: #1da1f2;
         }
-         .social-links .fa-instagram{
+         .social-link .fa-instagram{
             color: #cd486b;
         }
-         .social-links .fa-whatsapp{
+         .social-link .fa-whatsapp{
             color: #25d366;
         }
-         .social-links a:hover{
+         .social-link a:hover{
             color: var(--color-1);
         }
         
@@ -493,7 +496,8 @@ html::-webkit-scrollbar-thumb{
         width: 80%;
             font-size: 16px;
             font-weight: 500;
-            margin-top: 0.2rem;}
+            margin-top: 0.2rem;
+        color: var(--color-3);}
         
           
             .fill .input{
@@ -630,38 +634,39 @@ html::-webkit-scrollbar-thumb{
                 color: var(--color-1);
                 align-items: left;
             }
-    
-             .social-links{
+            .social-link ul{
                 margin-top: 15px;
                 display: flex;
                 flex-direction: row;
-                gap: 3%;
+                gap: 2rem;
+                list-style: none;
             }
-            .social-links li  a{
+           
+            .social-link li  a{
               font-size: 20px;
               
               transition: o.3s ease var(--color-1);
             
             }
-             .social-links li  a:hover{
+             .social-link li  a:hover{
                 transform: translate(0, -10%);
             }
-            .social-links .fa-facebook{
+            .social-link .fa-facebook{
                 color: #316ff6;
                 background-color: white;
                 border: none;
                 border-radius: 50%;
             }
-            .social-links .fa-twitter{
+            .social-link .fa-twitter{
                 color: #1da1f2;
             }
              .social-links .fa-instagram{
                 color: #cd486b;
             }
-             .social-links .fa-whatsapp{
+             .social-link .fa-whatsapp{
                 color: #25d366;
             }
-             .social-links a:hover{
+             .social-link a:hover{
                 color: var(--color-1);
             }
             
@@ -683,7 +688,8 @@ html::-webkit-scrollbar-thumb{
             width: 80%;
                 font-size: 16px;
                 font-weight: 500;
-                margin-top: 0.2rem;}
+                margin-top: 0.2rem;
+                color: var(--color-3)}
             
               
                 .fill .input{
@@ -821,12 +827,14 @@ html::-webkit-scrollbar-thumb{
                     color: var(--color-1);
                     align-items: left;
                 }
-                .follow .social-link{
+                .social-link ul{
                     margin-top: 15px;
                     display: flex;
                     flex-direction: row;
-                    gap: 3rem;
+                    gap: 2rem;
+                    list-style: none;
                 }
+                
                 .social-link  li  a{
                   font-size: 20px;
                   display: flex;
@@ -876,7 +884,8 @@ html::-webkit-scrollbar-thumb{
                 width: 80%;
                     font-size: 16px;
                     font-weight: 500;
-                    margin-top: 0.2rem;}
+                    margin-top: 0.2rem;
+                    color: var(--color-3)}
                 
                   
                     .fill .input{
@@ -1038,6 +1047,19 @@ html::-webkit-scrollbar-thumb{
                     display: flex;
                     flex-wrap: wrap;
                     gap: 2rem;
+                }
+                @media(max-width:900px){
+                    .footer{
+                        padding:  4rem 2rem;
+                        margin-top: 5rem;
+                        display: flex;
+                        flex-direction: row;
+                        flex-wrap: wrap;
+                       color: var(--color-4);
+                       gap: 2rem;
+                       background-color:#233b20;
+                       text-align: justify;
+                    }
                 }
                 @media(max-width:480px){
                     .footer{
