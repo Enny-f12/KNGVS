@@ -191,6 +191,8 @@ html::-webkit-scrollbar-thumb{
     text-align: center;
     margin-top: 1rem;
     margin-bottom: 10rem;
+    align-items: center;
+    justify-content: center;
 }
 .images{
     display: flex;
@@ -200,6 +202,8 @@ html::-webkit-scrollbar-thumb{
     flex-wrap: wrap;
     margin-top: 3rem;
     margin: auto;
+    align-items: center;
+    justify-content: center;
 }
 .images img{
     width: 225px;
