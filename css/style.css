@@ -980,15 +980,16 @@
     
            
      }
-     #vertical_line{
+    .partners .text #vertical_line{
         height: 4px;
         width: 40px;
         background-color: var(--color-1);
         margin-top: 0px;
+    
         
     
     }
-    .line{
+   .partners .text .line{
         display: flex;
         flex-direction: column-reverse;
         gap: 1rem;
@@ -1038,7 +1039,7 @@
         width: 100%;
         margin-left: 28px;
         margin-top: 1rem;
-        text-align: justify;
+        text-align: center;
     }
     .links{
         display: flex;
@@ -1340,7 +1341,7 @@
             gap: 2rem;
             width: 100%;
             margin-top: 40px;
-            margin-left: 27px;
+            margin-left: 0px;
             flex: 1;
             cursor: pointer;
             align-items: center;
@@ -1357,7 +1358,7 @@
         align-items: center;
         justify-content: center;
         background-color: white;
-        padding: 5rem 1.5rem;
+        padding: 5rem 2rem;
         
         }
         .news_text h2{
@@ -1373,9 +1374,9 @@
             cursor: pointer;
     
          }
-       .news  #vertical_line{
-            height: 40px;
-            width: 4px;
+       .news_text  #vertical_line{
+            height: 4px;
+            width: 40px;
             background-color: var(--color-1);
             margin-top: 4px;
             
@@ -1384,15 +1385,15 @@
         .news_text p{
             line-height: 1.5;
             font-size: 16px;
-            width: 90%;
-            margin-left: 28px;
+            width: 100%;
+            margin-left: 0px;
             margin-top: 1rem;
-            text-align: justify;
+            text-align: left;
         }
-       .news .line{
+       .news_text .line{
             display: flex;
-            flex-direction: row;
-            gap: 16px;
+            flex-direction: column-reverse;
+            gap: 1rem;
             
         
             }
@@ -1599,7 +1600,7 @@
             width: 100%;
             margin-top:7rem;
             background-color: #eefbee;
-            padding: 5rem 1.5rem;
+            padding: 5rem 2rem;
             align-items: center;
             justify-content: center;
             margin-bottom: 10rem;
@@ -1607,7 +1608,7 @@
         }
         .get_involved_text h2{
             width: 90%;
-            font-size: 30px;
+            font-size: 35px;
         }  
         .get_involved_text{
             width: 90%;
@@ -1617,8 +1618,8 @@
             font-size: 16px;
             font-weight: light;
             line-height: 1.5;
-            text-align: justify;
-            margin-left: 1.3rem;
+            text-align: left;
+            margin-left: 0px;
             
         }
         .get_button .button{
@@ -1676,7 +1677,22 @@
             color: var(--color-4);
             background-color: var(--color-3);
         }
+        .get_involved_text  #vertical_line{
+            height: 4px;
+            width: 40px;
+            background-color: var(--color-1);
+            margin-top: 4px;
+            
+        
+        }
        
+       .get_involved_text .line{
+            display: flex;
+            flex-direction: column-reverse;
+            gap: 1rem;
+            
+        
+            }
     
     }
 
@@ -1690,7 +1706,7 @@
     .container > p,
     .container > h2{
        
-        text-align: justify;
+        text-align: left;
     }
    
 
@@ -1754,26 +1770,25 @@
     @media(max-width:480px){
         .container{
             width: 100%;
-            padding: 5rem 1.5rem;
+            padding: 5rem 2rem;
             margin-top: 10rem auto;
             margin-bottom: 3%;
         }
         .container > p
     {
            
-            text-align: justify;
+            text-align: left;
         }
         
         .container .line h2{
             color: black;
-            font-size: 25px;
+            font-size: 30px;
             
         }
         .container p{
-            line-height: 1.5;
             font-size: 16px;
-            width: 90%;
-            margin-left: 28px;
+            width: 100%;
+            margin-left: 0px;
             margin-top: 1rem;
             
         }
@@ -1783,7 +1798,7 @@
             cursor: pointer;
             font-size: 17px;
             width: 100%;
-            padding: 2rem 1.5rem;
+            padding: 2rem 1rem;
             border: none;
             outline: none;
             transition: 0.4s;
@@ -1796,6 +1811,7 @@
         .accordion p{
             text-align: left;
         }
+        
     }
 
 
