@@ -1,58 +1,7 @@
 
 
     /* landing page*/
-     .home{
-        width: 100%;
-        padding-top: 250px;
-        padding-bottom: 200px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: #d7d5d5;
-        background-image: url("../images/IMG_20210817_111641.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        color: white;
-        background-blend-mode: multiply;
-        
-     }
-     .home h1{
-        font-size: 100px;
-        margin:5%;
-        margin-top: -7%;
-     }
-     .home h1::third-line{
-        color:var(--color-1)
-     }
-     .home.l{
-        color: var(--color-1);
-     }
-     @media(max-width:480px){
-        .home h1{
-            width: 100%;
-            padding-top: 200px;
-            padding-bottom: 200px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-color: #d7d5d5;
-            background-image: url("../images/IMG_20210817_111641.jpg");
-            background-size: cover;
-            background-repeat: no-repeat;
-            color: white;
-            background-blend-mode: multiply;
-            line-height: 1.5;
-            padding-right: 1rem;
-            padding-left: 1px;
-            font-size: 70px;
-            text-align: center;
-            
-         }
-        
-         .home.l{
-            color: var(--color-1);
-         }
-     }
+    
 
 
      /*sub-section*/
@@ -88,7 +37,7 @@
             font-size: 16px;
             margin-top: 1rem;
             margin-left: 38px;
-            text-align: justify;
+            text-align: left;
             
         }
         .frames{
@@ -223,7 +172,7 @@
             align-items: center;
             justify-content: center;
             margin: 10rem auto;
-            padding: 0rem 1.5rem;
+            padding: 0rem 2rem;
          }
     .frames{
         display: flex;
@@ -234,33 +183,41 @@
         margin-left: 27px;
     
     }
-    .line h2{
-        font-size: 35px;
+   .subsection_text .line h2{
+        font-size: 30px;
     }
     .subsection_text p{
         width: 90%;
-        font-size: 16px;
+        font-size: 14px;
         margin-top: 1rem;
-        margin-left: 27px;
-        text-align: justify;
+        text-align: left;
         word-wrap: break-word;
-        widows: 3;
-        orphans: 3;
-        column-count: 1;
+        margin-left: 0px;
     }
-    #vertical_line{
-        height: 40px;
-        width: 4px;
+   .subsection_text #vertical_line{
+        height: 4px;
+        width: 40px;
         background-color: var(--color-1);
         margin-top: 0px;
     }
-    .line{
+   .subsection_text .line{
         display: flex;
-        flex-direction: row;
-        gap: 16px;
+        flex-direction:column;
+        
         
     
         }
+        .frames{
+            display: flex;
+            flex-direction: row;
+            width: 90%;
+            gap: 1rem;
+            margin-top: 60px;
+            margin-left: 0px;
+        
+        }
+
+        
 
 }
 
@@ -2153,6 +2110,11 @@
             
 
         }
+    }
+
+
+    p{
+        text-align: left;
     }
  /*
            .footer{
