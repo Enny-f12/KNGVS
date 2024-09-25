@@ -176,6 +176,7 @@ html::-webkit-scrollbar-thumb{
         color: white;
         margin: auto;
         margin-bottom: 5%;
+        margin-top: 5rem;
     }
     .here img{
         width: 45%;
@@ -371,12 +372,13 @@ html::-webkit-scrollbar-thumb{
             color: white;
             margin: auto;
             margin-bottom: 5%;
+            margin-top: 4rem;
         }
         .here img{
             width: 60%;
             height: 40vh;
             margin: auto;
-            margin-bottom: 5%;
+            margin-bottom: 5rem;
         }
         
         
@@ -563,6 +565,7 @@ html::-webkit-scrollbar-thumb{
                 color: white;
                 margin: auto;
                 margin-bottom: 5%;
+                margin-top: 5rem;
             }
             .here img{
                 width: 60%;
@@ -755,6 +758,7 @@ html::-webkit-scrollbar-thumb{
                     color: white;
                     margin: auto;
                     margin-bottom: 2rem;
+                    margin-top: 2rem;
                 }
                 .here img{
                     width: 80%;

@@ -215,6 +215,8 @@ html::-webkit-scrollbar-thumb{
         flex-wrap: wrap;
         margin-top: 3rem;
         margin: auto;
+        align-items: center;
+        justify-content: center;
     }
     .pictures img{
         width: 270px;

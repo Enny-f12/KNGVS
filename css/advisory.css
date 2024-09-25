@@ -181,7 +181,7 @@ html::-webkit-scrollbar-thumb{
 .adv .text{
     width: 70%;
     margin-top: 1rem;
-    text-align: justify;
+    text-align: left;
 }
 .adv img{
     width: 480px;
@@ -209,7 +209,7 @@ html::-webkit-scrollbar-thumb{
     .adv .text{
         width: 100%;
         margin-top: 1rem;
-        text-align: justify;
+        text-align: left;
     }
     .adv img{
         width: 100%;
@@ -237,7 +237,7 @@ html::-webkit-scrollbar-thumb{
     .adv .text{
         width: 100%;
         margin-top: 1rem;
-        text-align: justify;
+        text-align: left;
     }
     .adv img{
         width: 100%;
@@ -257,15 +257,15 @@ html::-webkit-scrollbar-thumb{
         display: flex;
         flex-direction: column;
         gap: 3rem;
-        width: 85%;
+        width: 100%;
         margin: 0rem auto;
         margin-bottom: 10rem;
-        padding: 1rem;
+        padding:1rem 2rem;
     }
     .adv .text{
         width: 100%;
         margin-top: 1rem;
-        text-align: justify;
+        text-align: left;
     }
     .adv img{
         width: 100%;

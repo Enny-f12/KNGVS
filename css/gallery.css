@@ -213,6 +213,17 @@ html::-webkit-scrollbar-thumb{
         border-radius: 10px;
         
     }
+    .images{
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        width: 90%;
+        flex-wrap: wrap;
+        margin-top: 3rem;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+    }
 }
 @media(max-width:480px){
     .gal h2{
@@ -227,6 +238,17 @@ html::-webkit-scrollbar-thumb{
         margin-bottom: 1rem;
         border-radius: 10px;
         
+    }
+    .images{
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        width: 90%;
+        flex-wrap: wrap;
+        margin-top: 3rem;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
     }
 }
 .footer{
