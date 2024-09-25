@@ -207,7 +207,7 @@ margin-top: 1rem;
 }
 .garden .text{
   flex-basis: 50%;
-  text-align: justify;
+  text-align: left;
 }
 .garden .text p{
     margin-top: 1rem;
@@ -231,7 +231,7 @@ margin-top: 1rem;
 .educatio .text{
   flex-basis: 50%;
   gap: 1rem;
-  text-align: justify;
+  text-align: left;
 }
 .educatio .text p{
     margin-top: 1rem;
@@ -259,7 +259,7 @@ margin-top: 1rem;
 .exercise .text{
   flex-basis: 50%;
   gap: 1rem;
-  text-align: justify;
+  text-align: left;
 
 }
 .exercise .text p{
@@ -315,7 +315,7 @@ margin-top: 1rem;
     }
     .garden .text{
       flex-basis: 50%;
-      text-align: justify;
+      text-align: left;
     }
     .garden .text p{
         margin-top: 1rem;
@@ -339,7 +339,7 @@ margin-top: 1rem;
     .educatio .text{
       flex-basis: 50%;
       gap: 1rem;
-      text-align: justify;
+      text-align: left;
     }
     .educatio .text p{
         margin-top: 1rem;
@@ -367,7 +367,7 @@ margin-top: 1rem;
     .exercise .text{
       flex-basis: 50%;
       gap: 1rem;
-      text-align: justify;
+      text-align: left;
     
     }
     .exercise .text p{
@@ -402,7 +402,7 @@ margin-top: 1rem;
     }
     .garden .text{
       flex-basis: 90%;
-      text-align: justify;
+      text-align: left;
     }
     .garden .text p{
         margin-top: 1rem;
@@ -427,7 +427,7 @@ margin-top: 1rem;
     .educatio .text{
       flex-basis: 90%;
       gap: 1rem;
-      text-align: justify;
+      text-align: left;
     }
     .educatio .text p{
         margin-top: 1rem;
@@ -456,7 +456,7 @@ margin-top: 1rem;
     .exercise .text{
       flex-basis: 90%;
       gap: 1rem;
-      text-align: justify;
+      text-align: left;
     
     }
     .exercise .text p{
@@ -491,7 +491,7 @@ margin-top: 1rem;
     }
     .garden .text{
       flex-basis: 90%;
-      text-align: justify;
+      text-align: left;
     }
     .garden .text p{
         margin-top: 1rem;
@@ -516,7 +516,7 @@ margin-top: 1rem;
     .educatio .text{
       flex-basis: 90%;
       gap: 1rem;
-      text-align: justify;
+      text-align: left;
     }
     .educatio .text p{
         margin-top: 1rem;
@@ -545,7 +545,7 @@ margin-top: 1rem;
     .exercise .text{
       flex-basis: 90%;
       gap: 1rem;
-      text-align: justify;
+      text-align: left;
     
     }
     .exercise .text p{
@@ -568,7 +568,7 @@ margin-top: 1rem;
     justify-content: center;
     margin: auto;
     margin-top: 1rem;
-    text-align: justify;
+    text-align: center;
     }  
     .garden{
         display: flex;
@@ -591,7 +591,7 @@ margin-top: 1rem;
     .garden .text{
       flex-basis: 100%;
       margin-top: 1rem;
-      text-align: justify;
+      text-align: left;
     }
     .educatio{
         display: flex;
@@ -610,7 +610,7 @@ margin-top: 1rem;
       flex-basis: 100%;
       gap: 1rem;
       margin-top: 1rem;
-      text-align: justify;
+      text-align: left;
     }
     .educatio .text p{
         margin-top: 1rem;

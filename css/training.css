@@ -182,7 +182,7 @@ html::-webkit-scrollbar-thumb{
     .train .text{
         width: 50%;
         letter-spacing: 0.2px;
-        text-align: justify;
+        text-align: left;
     }
     .train .text p{
         margin-top: -1.5rem;
@@ -280,7 +280,7 @@ html::-webkit-scrollbar-thumb{
         .train .text{
             width: 100%;
             letter-spacing: 0.2px;
-            text-align: justify;
+            text-align: left;
         }
         .train img{
             width: 600px;
@@ -316,7 +316,7 @@ html::-webkit-scrollbar-thumb{
             border-radius: 10px;
         }
         .sessions{
-            text-align: justify;
+            text-align: center;
             margin: auto;
             margin-bottom: 2rem;
             width: 90%;
@@ -379,7 +379,7 @@ html::-webkit-scrollbar-thumb{
             border-radius: 10px;
         }
         .sessions{
-            text-align: justify;
+            text-align: center;
             margin: auto;
             margin-bottom: 2rem;
             width: 90%;
@@ -406,7 +406,7 @@ html::-webkit-scrollbar-thumb{
         .train .text{
             width: 100%;
             letter-spacing: 0.5px;
-            text-align: justify;
+            text-align: left;
         }
         .train img{
             width: 100%;
@@ -437,7 +437,7 @@ html::-webkit-scrollbar-thumb{
             border-radius: 10px;
         }
         .sessions{
-            text-align: justify;
+            text-align: center;
             margin: auto;
             margin-bottom: 2rem;
             width: 90%;
