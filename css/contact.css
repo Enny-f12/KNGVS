@@ -72,7 +72,7 @@ html::-webkit-scrollbar-thumb{
         
     }
     header{
-        background-color:var(--color-3);
+        background-color:#1b1a1b;
         top: 0;
         padding-top: 15px;
     }
@@ -105,7 +105,7 @@ html::-webkit-scrollbar-thumb{
     .menu{
         width: 100%;
         margin-top: 0px;
-        background-color: #000000;
+        background-color: #1b1a1b;
     }
     .menu .item{
         position: relative;
@@ -177,6 +177,7 @@ html::-webkit-scrollbar-thumb{
         margin: auto;
         margin-bottom: 5%;
         margin-top: 5rem;
+        display: none;
     }
     .here img{
         width: 45%;
@@ -189,7 +190,7 @@ html::-webkit-scrollbar-thumb{
     
     
     .inquiries{
-        margin-top: 4%;
+        margin-top: 0rem;
         display: flex;
         flex-direction: row;
         gap: 2rem;
@@ -373,6 +374,7 @@ html::-webkit-scrollbar-thumb{
             margin: auto;
             margin-bottom: 5%;
             margin-top: 4rem;
+            display: none;
         }
         .here img{
             width: 60%;
@@ -383,7 +385,7 @@ html::-webkit-scrollbar-thumb{
         
         
         .inquiries{
-            margin-top: 7%;
+            margin-top: 0rem;
             display: flex;
             flex-direction: row;
             gap: 2rem;
@@ -566,6 +568,7 @@ html::-webkit-scrollbar-thumb{
                 margin: auto;
                 margin-bottom: 5%;
                 margin-top: 5rem;
+                display: none;
             }
             .here img{
                 width: 60%;
@@ -576,7 +579,7 @@ html::-webkit-scrollbar-thumb{
             
             
             .inquiries{
-                margin-top: 20%;
+                margin-top: 0rem;
                 display: flex;
                 flex-direction: column;
                 gap: 2rem;
@@ -759,6 +762,7 @@ html::-webkit-scrollbar-thumb{
                     margin: auto;
                     margin-bottom: 2rem;
                     margin-top: 2rem;
+                    display: none;
                 }
                 .here img{
                     width: 80%;
@@ -769,7 +773,7 @@ html::-webkit-scrollbar-thumb{
                 
                 
                 .inquiries{
-                    margin-top: 30%;
+                    margin-top: 0rem;
                     display: flex;
                     flex-direction: column;
                     gap: 2rem;
@@ -1351,3 +1355,8 @@ html::-webkit-scrollbar-thumb{
         
     }
       */
+
+
+      html{
+        scroll-behavior: smooth;
+       }

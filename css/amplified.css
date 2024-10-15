@@ -73,7 +73,7 @@ html::-webkit-scrollbar-thumb{
         
     }
     header{
-        background-color:var(--color-3);
+        background-color:#1b1a1b;
         top: 0;
         padding-top: 15px;
     }
@@ -107,7 +107,7 @@ html::-webkit-scrollbar-thumb{
     .menu{
         width: 100%;
         margin-top: 0px;
-        background-color: #000000;
+        background-color: #1b1a1b;
     }
     .menu .item{
         position: relative;
@@ -311,6 +311,7 @@ html::-webkit-scrollbar-thumb{
         margin: 5rem auto;
         text-align: center;
         margin-bottom: 2rem;
+        display: none;
     }
     .heading h2{
         font-size: 35px;
@@ -321,6 +322,7 @@ html::-webkit-scrollbar-thumb{
         gap: 4rem;
         width: 90%;
         margin: auto;
+        margin-top: 5rem;
     }
     .kitchen .text{
         width: 100%;
@@ -524,3 +526,7 @@ html::-webkit-scrollbar-thumb{
         }
         
     }
+
+    html{
+        scroll-behavior: smooth;
+       }

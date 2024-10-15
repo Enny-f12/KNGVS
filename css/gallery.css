@@ -75,7 +75,7 @@ html::-webkit-scrollbar-thumb{
         
     }
     header{
-        background-color:var(--color-3);
+        background-color:#1b1a1b;
         top: 0;
         padding-top: 15px;
     }
@@ -109,7 +109,7 @@ html::-webkit-scrollbar-thumb{
     .menu{
         width: 100%;
         margin-top: 0px;
-        background-color: #000000;
+        background-color: #1b1a1b;
     }
     .menu .item{
         position: relative;
@@ -233,7 +233,7 @@ html::-webkit-scrollbar-thumb{
         
     }
     .images img{
-        width: 225px;
+        width: 80%;
         height: 250px;
         margin-bottom: 1rem;
         border-radius: 10px;
@@ -390,3 +390,7 @@ font-size: 15px;
     }
     
 }
+
+html{
+    scroll-behavior: smooth;
+   }

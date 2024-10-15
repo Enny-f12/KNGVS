@@ -5,6 +5,8 @@
 
 
      /*sub-section*/
+
+
      @media(min-width:480px){
         #vertical_line{
             height: 50px;
@@ -1753,14 +1755,14 @@
         }  
         .get_involved_text{
             width: 90%;
-            text-align: justify;
+            
         }
         .get_button p{
             font-size: 16px;
             font-weight: light;
             line-height: 1.5;
             text-align: left;
-            margin-left: 0px;
+            margin-left: -1px;
             
         }
         .get_button .button{
@@ -1967,10 +1969,10 @@
         .accordion{
             background-color: white;
             color:black;
-            cursor: pointer;
+            cursor: grab;
             font-size: 17px;
             width: 100%;
-            padding: 2rem 1rem;
+            padding: 1rem 1rem;
             border: none;
             outline: none;
             transition: 0.4s;
@@ -1982,6 +1984,7 @@
         }
         .accordion p{
             text-align: left;
+            width: 90%;
         }
         .faq_text  #vertical_line{
             height: 4px;
@@ -2321,12 +2324,14 @@
     
             }
         }  
+
+
     
     @media(max-width:480px){
         .slider{
             position: relative;
             width: 100%;
-            height: 100vh;
+            height: 80vh;
             background-image: url(../images/IMG_20210817_111641.jpg);
             background-position: center;
             background-size: cover;
@@ -2337,20 +2342,20 @@
         .text-overlay {
             position: relative;
             width: 100%;
-            height: 100%;
+            height: 60%;
             color: white;
             display: flex;
             align-items: center;
             justify-content: center;
             z-index: 2;
-            padding-top: 150px;
-            padding-bottom: 200px;
+            padding-top: 7%;
+            padding-bottom: 5%;
             padding-left: 1rem;
             padding-right: 1rem;
             
         }
         .text-overlay h1{
-            font-size:65px;
+            font-size:60px;
             margin: auto;
             line-height: 1.5;
             text-align: center;
@@ -2364,233 +2369,23 @@
     p{
         text-align: left;
     }
- /*
-           .footer{
-            padding: 7%  5%;
-           
-            z-index: 1;
-            margin-top: 5%;
-            display: flex;
-            flex-direction: row;
-           color: white;
-           gap: 15%;
-           .footer::before{
-            content: '';
-            position: absolute;
-            left: 0;
+ 
+
+        .scroll-watcher{
+            height: 10px;
+            position: fixed;
             top: 0;
+            z-index: 1000;
+            background-color: #0a7300;
             width: 100%;
-            height: 100%;
-            background-color: var(--color-7);
-            z-index: -1;
+            scale: 0 1;
+            animation: scroll-watcher linear;
+            animation-timeline: scroll();
+            transform-origin: left;
         }
-        .footer .container .phase{
-            display: flex;
-            flex-direction: row;
-            gap: 1%;
-        
+        @keyframes scroll-watcher{
+            to{ scale:1 1;}
         }
-        .container{
-            width: 35%;
-        }
-        .container p{
-          width: 100%;
-          margin-top: 2%;
-          font-size: 16px;
-          font-weight: light;
-          color: white;
-          margin-left: -0.5%;
-        }
-        .phase img{
-            width: 10%;
-            height: 5vh;
-        }
-        .about,.categories,.contact{
-            display: flex;
-            flex-direction: column;
-            gap: 5%;
-            width: 10%;
-            text-align: left;
-        }
-        .contact{
-            width: 25%;
-        }
-        .footer .social-links{
-            margin-top: 15px;
-            display: flex;
-            flex-direction: row;
-            gap: 5%;
-        }
-        .footer .social-links li  a{
-          font-size: 20px;
-          
-          transition: o.3s ease var(--color-1);
-        
-        }
-        .footer .social-links li  a:hover{
-            transform: translate(0, -10%);
-        }
-        .footer .social-links .fa-facebook{
-            color: #316ff6;
-            border: none;
-            border-radius: 50%;
-        }
-        .footer .social-links .fa-twitter{
-            color: #1da1f2;
-        }
-        .footer .social-links .fa-instagram{
-            color: #cd486b;
-        }
-        .footer .social-links .fa-whatsapp{
-            color: #25d366;
-        }
-         .social-links a:hover{
-            color: var(--color-1);
-        }
-        
-        .about ul li{
-        display: flex;
-        flex-direction: column;
-        margin-top: 5%;
-        font-size: 15px;
-        }
-        .categories ul li{
-            display: flex;
-            flex-direction: column;
-            margin-top: 5%;
-            font-size: 15px;
-            }
-            .contact ul li{
-                display: flex;
-                flex-direction: column;
-                margin-top: 5%;
-                font-size: 15px;
-                }
-        
-        
-        
-        .footer-item{
-            width: 30%;
-        
-            
-        }
-        
-        .footer .row{
-            display: flex;
-            flex-wrap: wrap;
-            gap: 2rem;
-        }
-        
-        }
-        
-        .footer::before{
-            content: '';
-            position: absolute;
-            left: 0;
-            top: 0;
-            width: 100%;
-            height: 100%;
-            background-color: var(--color-7);
-            z-index: -1;
-        }
-        .footer .container .phase{
-            display: flex;
-            flex-direction: row;
-            gap: 1%;
-        
-        }
-        .container{
-            width: 35%;
-        }
-        .container p{
-          width: 100%;
-          margin-top: 2%;
-          font-size: 16px;
-          font-weight: light;
-          color: white;
-          margin-left: -0.5%;
-        }
-        .phase img{
-            width: 10%;
-            height: 5vh;
-        }
-        .about,.categories,.contact{
-            display: flex;
-            flex-direction: column;
-            gap: 5%;
-            width: 10%;
-            text-align: left;
-        }
-        .contact{
-            width: 25%;
-        }
-        .footer .social-links{
-            margin-top: 15px;
-            display: flex;
-            flex-direction: row;
-            gap: 5%;
-        }
-        .footer .social-links li  a{
-          font-size: 20px;
-          
-          transition: o.3s ease var(--color-1);
-        
-        }
-        .footer .social-links li  a:hover{
-            transform: translate(0, -10%);
-        }
-        .footer .social-links .fa-facebook{
-            color: #316ff6;
-            border: none;
-            border-radius: 50%;
-        }
-        .footer .social-links .fa-twitter{
-            color: #1da1f2;
-        }
-        .footer .social-links .fa-instagram{
-            color: #cd486b;
-        }
-        .footer .social-links .fa-whatsapp{
-            color: #25d366;
-        }
-         .social-links a:hover{
-            color: var(--color-1);
-        }
-        
-        .about ul li{
-        display: flex;
-        flex-direction: column;
-        margin-top: 5%;
-        font-size: 15px;
-        }
-        .categories ul li{
-            display: flex;
-            flex-direction: column;
-            margin-top: 5%;
-            font-size: 15px;
-            }
-            .contact ul li{
-                display: flex;
-                flex-direction: column;
-                margin-top: 5%;
-                font-size: 15px;
-                }
-        
-        
-        
-        .footer-item{
-            width: 30%;
-        
-            
-        }
-        
-        .footer .row{
-            display: flex;
-            flex-wrap: wrap;
-            gap: 2rem;
-        }
-    }
-        */
 
         *{
             margin: 0;
@@ -2671,7 +2466,7 @@
                 
             }
             header{
-                background-color:var(--color-3);
+                background-color:#1b1a1b;
                 top: 0;
                 padding-top: 15px;
             }
@@ -2705,7 +2500,7 @@
             .menu{
                 width: 100%;
                 margin-top: 0px;
-                background-color: #000000;
+                background-color: #1b1a1b;
             }
             .menu .item{
                 position: relative;
@@ -2760,6 +2555,8 @@
                 color: rgb(110, 2, 2);
             }
             
-        
+        html{
+            scroll-behavior: smooth;
+        }
         
         

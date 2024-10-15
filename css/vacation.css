@@ -74,7 +74,7 @@ html::-webkit-scrollbar-thumb{
         
     }
     header{
-        background-color:var(--color-3);
+        background-color:#1b1a1b;
         top: 0;
         padding-top: 15px;
     }
@@ -108,7 +108,7 @@ html::-webkit-scrollbar-thumb{
     .menu{
         width: 100%;
         margin-top: 0px;
-        background-color: #000000;
+        background-color: #1b1a1b;
     }
     .menu .item{
         position: relative;
@@ -381,7 +381,7 @@ margin-top: 1rem;
 @media(max-width:850px){
     .garden{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         flex-wrap: wrap;
         gap: 2rem;
         margin: auto;
@@ -569,6 +569,7 @@ margin-top: 1rem;
     margin: auto;
     margin-top: 1rem;
     text-align: center;
+    font-size: 14px;
     }  
     .garden{
         display: flex;
@@ -592,6 +593,7 @@ margin-top: 1rem;
       flex-basis: 100%;
       margin-top: 1rem;
       text-align: left;
+      font-size: 14px;
     }
     .educatio{
         display: flex;
@@ -611,6 +613,7 @@ margin-top: 1rem;
       gap: 1rem;
       margin-top: 1rem;
       text-align: left;
+      font-size: 14px;
     }
     .educatio .text p{
         margin-top: 1rem;
@@ -641,6 +644,7 @@ margin-top: 1rem;
     }
     .exercise .text p{
         margin-top: 1rem;
+        font-size: 14px;
     }
     .exercise .text h2{
         font-size: 24px;
@@ -817,3 +821,7 @@ font-size: 15px;
     }
     
 }
+
+html{
+    scroll-behavior: smooth;
+   }
