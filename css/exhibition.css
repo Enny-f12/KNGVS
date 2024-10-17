@@ -194,8 +194,14 @@ html::-webkit-scrollbar-thumb{
         width: 80%;
         margin: 4rem auto;
         
-        letter-spacing: 0.2px;
-    }
+
+        font-size: 16px;
+       
+        line-height: 1.5;
+        letter-spacing: 0.5px;
+       
+}
+    
     .highlights{
         width: 90%;
         margin: auto;
@@ -207,6 +213,12 @@ html::-webkit-scrollbar-thumb{
         letter-spacing: 0.2px;
         margin-top: 1rem;
         text-align: left;
+        font-size: 16px;
+       
+        line-height: 1.5;
+        letter-spacing: 0.5px;
+       
+
     }
     .pictures{
         display: flex;
@@ -224,6 +236,7 @@ html::-webkit-scrollbar-thumb{
         margin-bottom: 4rem;
          border-radius: 10px;
     }
+
 @media(max-width:1200px){
     .pictures{
         display: flex;
@@ -262,6 +275,7 @@ html::-webkit-scrollbar-thumb{
         margin-bottom: 0.5rem;
         border-radius: 10px;
     }
+
  @media(max-width:1200px){
     .picturess{
         display: flex;
@@ -294,10 +308,16 @@ html::-webkit-scrollbar-thumb{
         margin-bottom: 3rem;
     }
     .attendance p{
-        letter-spacing: 0.2px;
+        letter-spacing: 0.5px;
         margin-top: 1rem;
         text-align: left;
-    }
+        font-size: 16px;
+       
+        line-height: 1.5;
+        letter-spacing: 0.5px;
+       
+}
+    
 .image {
     width: 90%;
     margin: auto;
@@ -306,11 +326,19 @@ html::-webkit-scrollbar-thumb{
     align-items: center;
     justify-content: center;
     
+    
     }
     .image img{
-        width: 96%;
-        height: 400px;
+        width: 90%;
+        margin: auto;
+        height: 60vh;
+       
         border-radius: 10px;
+        align-items: center;
+        justify-content: center;
+        
+        place-items: center;
+        margin-left: 5%;
     }
     .image h2{
         text-align: center;
@@ -348,8 +376,13 @@ html::-webkit-scrollbar-thumb{
             width: 80%;
             margin: 4rem auto;
             text-align:left;
-            letter-spacing: 0.2px;
-        }
+            font-size: 15px;
+       
+        line-height: 1.5;
+        letter-spacing: 0.5px;
+       
+}
+        
         .highlights{
             width: 90%;
             margin: auto;
@@ -360,6 +393,12 @@ html::-webkit-scrollbar-thumb{
             letter-spacing: 0.2px;
             margin-top: 1rem;
             text-align:left;
+            font-size: 15px;
+       
+        line-height: 1.5;
+        letter-spacing: 0.5px;
+       
+
         }
         .pictures{
             display: flex;
@@ -408,9 +447,15 @@ html::-webkit-scrollbar-thumb{
             text-align:left;
         }
         .attendance p{
-            letter-spacing: 0.2px;
+            letter-spacing: 0.5px;
             margin-top: 1rem;
-        }
+            font-size: 15px;
+       
+        line-height: 1.5;
+        letter-spacing: 0.5px;
+       
+}
+        
     .image {
         width: 90%;
         margin: auto;

@@ -183,6 +183,12 @@ align-items: center;
 justify-content: center;
 margin: auto;
 margin-top: 1rem;
+font-size: 16px;
+       
+        line-height: 1.5;
+        letter-spacing: 0.5px;
+       
+
 }
 
 .garden{
@@ -211,6 +217,12 @@ margin-top: 1rem;
 }
 .garden .text p{
     margin-top: 1rem;
+    font-size: 16px;
+       
+        line-height: 1.5;
+        letter-spacing: 0.5px;
+       
+
 }
 
 .educatio{
@@ -235,6 +247,12 @@ margin-top: 1rem;
 }
 .educatio .text p{
     margin-top: 1rem;
+    font-size: 16px;
+       
+        line-height: 1.5;
+        letter-spacing: 0.5px;
+       
+
 }
 .educatio .text h2{
     font-size: 28px;
@@ -264,6 +282,12 @@ margin-top: 1rem;
 }
 .exercise .text p{
     margin-top: 1rem;
+    font-size: 16px;
+       
+        line-height: 1.5;
+        letter-spacing: 0.5px;
+       
+
 }
 .exercise .text h2{
     font-size: 28px;
@@ -319,6 +343,12 @@ margin-top: 1rem;
     }
     .garden .text p{
         margin-top: 1rem;
+        font-size: 16px;
+       
+        line-height: 1.5;
+        letter-spacing: 0.5px;
+       
+
     }
     
     .educatio{
@@ -343,6 +373,12 @@ margin-top: 1rem;
     }
     .educatio .text p{
         margin-top: 1rem;
+        font-size: 16px;
+       
+        line-height: 1.5;
+        letter-spacing: 0.5px;
+       
+
     }
     .educatio .text h2{
         font-size: 28px;
@@ -372,6 +408,12 @@ margin-top: 1rem;
     }
     .exercise .text p{
         margin-top: 1rem;
+        font-size: 16px;
+       
+        line-height: 1.5;
+        letter-spacing: 0.5px;
+       
+
     }
     .exercise .text h2{
         font-size: 28px;
@@ -406,6 +448,12 @@ margin-top: 1rem;
     }
     .garden .text p{
         margin-top: 1rem;
+        font-size: 16px;
+       
+        line-height: 1.5;
+        letter-spacing: 0.5px;
+       
+}
     }
     
     .educatio{
@@ -431,6 +479,12 @@ margin-top: 1rem;
     }
     .educatio .text p{
         margin-top: 1rem;
+        font-size: 16px;
+       
+        line-height: 1.5;
+        letter-spacing: 0.5px;
+       
+
     }
     .educatio .text h2{
         font-size: 28px;
@@ -461,12 +515,18 @@ margin-top: 1rem;
     }
     .exercise .text p{
         margin-top: 1rem;
+        font-size: 16px;
+       
+        line-height: 1.5;
+        letter-spacing: 0.5px;
+       
+
     }
     .exercise .text h2{
         font-size: 28px;
         color: var(--color-1);
     } 
-}
+
 @media(max-width:550px){
     .garden{
         display: flex;
@@ -495,6 +555,12 @@ margin-top: 1rem;
     }
     .garden .text p{
         margin-top: 1rem;
+        font-size: 16px;
+       
+        line-height: 1.5;
+        letter-spacing: 0.5px;
+       
+
     }
     
     .educatio{
@@ -520,6 +586,12 @@ margin-top: 1rem;
     }
     .educatio .text p{
         margin-top: 1rem;
+        font-size: 16px;
+       
+        line-height: 1.5;
+        letter-spacing: 0.5px;
+       
+
     }
     .educatio .text h2{
         font-size: 28px;
@@ -550,6 +622,12 @@ margin-top: 1rem;
     }
     .exercise .text p{
         margin-top: 1rem;
+        font-size: 16px;
+       
+        line-height: 1.5;
+        letter-spacing: 0.5px;
+       
+
     }
     .exercise .text h2{
         font-size: 28px;
@@ -569,7 +647,13 @@ margin-top: 1rem;
     margin: auto;
     margin-top: 1rem;
     text-align: center;
-    font-size: 14px;
+    font-size: 15px;
+
+       
+        line-height: 1.5;
+        letter-spacing: 0.5px;
+       
+
     }  
     .garden{
         display: flex;
@@ -593,7 +677,13 @@ margin-top: 1rem;
       flex-basis: 100%;
       margin-top: 1rem;
       text-align: left;
-      font-size: 14px;
+      font-size: 15px;
+
+       
+        line-height: 1.5;
+        letter-spacing: 0.5px;
+       
+}
     }
     .educatio{
         display: flex;
@@ -613,10 +703,16 @@ margin-top: 1rem;
       gap: 1rem;
       margin-top: 1rem;
       text-align: left;
-      font-size: 14px;
+      font-size: 15px;
     }
     .educatio .text p{
         margin-top: 1rem;
+        font-size: 15px;
+       
+        line-height: 1.5;
+        letter-spacing: 0.5px;
+       
+
     }
     .educatio .text h2{
         font-size: 24px;
@@ -640,12 +736,18 @@ margin-top: 1rem;
       flex-basis: 96%;
       gap: 1rem;
       margin-top: 1rem;
-      text-align: justify;
+      text-align: left;
     }
     .exercise .text p{
         margin-top: 1rem;
-        font-size: 14px;
-    }
+        font-size: 15px;
+        
+       
+        line-height: 1.5;
+        letter-spacing: 0.5px;
+       
+}
+    
     .exercise .text h2{
         font-size: 24px;
         color: var(--color-1);
@@ -681,7 +783,7 @@ margin-top: 1rem;
         border-radius: 10px;
         margin: auto;
     }
-}
+
 .footer{
     padding:  2rem 5rem;
     margin-top: 5rem;

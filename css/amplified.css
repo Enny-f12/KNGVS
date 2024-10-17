@@ -189,9 +189,14 @@ html::-webkit-scrollbar-thumb{
         letter-spacing: 0.5px;
         text-align: left;
         margin-left: -6rem;
+        line-height: 1.5;
     }
     .kitchen .text p{
         margin-top: 1rem;
+        line-height: 1.5;
+        letter-spacing: 0.5px;
+        font-size: 16px;
+    
     }
     .kitchen .text h2{
         font-size: 24px;
@@ -213,7 +218,10 @@ html::-webkit-scrollbar-thumb{
     }
     .recipe p{
         margin-top: 1rem;
-        letter-spacing: 0.2px;
+        
+        line-height: 1.5;
+        letter-spacing: 0.5px;
+        font-size: 16px;
     }
     .pictures{
         display: flex;
@@ -257,11 +265,16 @@ html::-webkit-scrollbar-thumb{
         }
         .kitchen .text{
             width: 60%;
-            letter-spacing: 0.2px;
             text-align:left;
+            line-height: 1.5;
+        letter-spacing: 0.5px;
+        font-size: 16px;
         }
         .kitchen .text p{
             margin-top: 1rem;
+            line-height: 1.5;
+        letter-spacing: 0.5px;
+        font-size: 16px;
         }
         .kitchen .text h2{
             font-size: 24px;
@@ -283,7 +296,9 @@ html::-webkit-scrollbar-thumb{
         }
         .recipe p{
             margin-top: 1rem;
-            letter-spacing: 0.2px;
+            line-height: 1.5;
+        letter-spacing: 0.5px;
+        font-size: 16px;
         }
         .pictures{
             display: flex;
@@ -337,6 +352,9 @@ html::-webkit-scrollbar-thumb{
     }
     .kitchen .text p{
         margin-top: 1rem;
+        line-height: 1.5;
+        letter-spacing: 0.5px;
+        font-size: 16px;
     }
     .kitchen .text h2{
         font-size: 24px;
@@ -358,7 +376,10 @@ html::-webkit-scrollbar-thumb{
     }
     .recipe p{
         margin-top: 1rem;
-        letter-spacing: 0.2px;
+        
+        line-height: 1.5;
+        letter-spacing: 0.5px;
+        font-size: 16px;
     }
     .pictures{
         display: flex;

@@ -308,6 +308,9 @@ html::-webkit-scrollbar-thumb{
 }
 .r p{
     margin-top: 1rem;
+    line-height: 1.5;
+        letter-spacing: 0.5px;
+        font-size: 16px;
 }
 .j{
     width: 90%;
@@ -316,6 +319,9 @@ html::-webkit-scrollbar-thumb{
 }
 .j p{
     margin-top: 1rem;
+    line-height: 1.5;
+        letter-spacing: 0.5px;
+        font-size: 16px;
 }
 .all{
     display: flex;
@@ -365,6 +371,9 @@ html::-webkit-scrollbar-thumb{
     }
     .r p{
         margin-top: 1rem;
+        line-height: 1.5;
+        letter-spacing: 0.5px;
+        font-size: 15px;
     }
     .j{
         width: 90%;
@@ -373,6 +382,9 @@ html::-webkit-scrollbar-thumb{
     }
     .j p{
         margin-top: 1rem;
+        line-height: 1.5;
+        letter-spacing: 0.5px;
+        font-size: 15px;
     }
     .all{
         display: flex;
