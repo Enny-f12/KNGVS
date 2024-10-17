@@ -173,16 +173,22 @@ html::-webkit-scrollbar-thumb{
     .kitchen{
         display: flex;
         flex-direction: row;
-        gap: 3rem;
-        width: 90%;
+        gap: 5rem;
+        width: 100%;
         margin: auto;
         align-items: center;
         justify-content: center;
+        padding: 5rem;
+        
+    
+        
+    
     }
     .kitchen .text{
-        width: 50%;
+        width: 60%;
         letter-spacing: 0.5px;
         text-align: left;
+        margin-left: -6rem;
     }
     .kitchen .text p{
         margin-top: 1rem;
@@ -191,7 +197,7 @@ html::-webkit-scrollbar-thumb{
         font-size: 24px;
     }
     .kitchen img{
-        width: 400px;
+        width: 130%;
         height: 350px;
         margin-top: 0rem;
         border-radius: 10px;

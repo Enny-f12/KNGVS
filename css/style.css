@@ -55,6 +55,7 @@
             margin-top: 1rem;
             margin-left: 38px;
             text-align: left;
+            letter-spacing: 0.5px;
             
         }
         .frames{
@@ -68,8 +69,8 @@
         }
 
         .frames .nut{
-            padding-top: 100px;
-            padding-bottom: 100px;
+            padding-top: 70px;
+            padding-bottom: 70px;
             border-radius: 10px;
             background-color: #7e7e7e;
             background-image: url('../images/KNGVS\ Pro_20240910_120141_1.png');
@@ -89,8 +90,8 @@
     }
         .frames .dev{
             background-image: url('../images/KNGVS\ Pro_20240909_000141_1.png');
-            padding-top: 100px;
-            padding-bottom: 100px;
+            padding-top: 70px;
+            padding-bottom: 70px;
             border-radius: 10px;
             background-color: #c4c2c2;
             background-size: cover;
@@ -128,6 +129,28 @@
         .frames .edu:hover{
             transform: rotate(180deg);
         }
+        .frames .dov{
+            background-image: url('../images/83ecb95f-2ae3-4067-b23a-c6cd72717a8c.jpg');
+            padding-top: 100px;
+            padding-bottom: 100px;
+            border-radius: 10px;
+            background-color: #808080;
+            transition: transform 2s ease-in-out;
+            background-size: cover;
+            color: white;
+            background-blend-mode: multiply;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+            text-align: center;
+            width: 100%;
+        }
+        .frames .dov:hover{
+            transform: rotate(180deg);
+        }
+
+        
         .subsection_button a{
        
         color: var(--color-1);
@@ -200,6 +223,7 @@
                 text-align: left;
                 word-wrap: break-word;
                 margin-left: 0px;
+                letter-spacing: 0.5px;
         
             }
     }
@@ -220,11 +244,12 @@
     }
     .subsection_text p{
         width: 100%;
-        font-size: 16px;
+        font-size: 14px;
         margin-top: 1rem;
         text-align: left;
         word-wrap: break-word;
         margin-left: 0px;
+        letter-spacing: 0.5px;
 
     }
    .subsection_text #vertical_line{
@@ -289,6 +314,7 @@
         width: 90%;
         margin-left: 38px;
         text-align: left;
+        letter-spacing: 0.5px;
 
     }
     .hero_text  #vertical_line{
@@ -331,6 +357,7 @@
             width: 100%;
             margin-left: 38px;
             text-align: left;
+            letter-spacing: 0.5px;
     
         }
     }
@@ -354,6 +381,7 @@
             width: 90%;
             margin-left: 30px;
             text-align: left;
+            letter-spacing: 0.5px;
     
         }
         .hero_section img{
@@ -371,7 +399,7 @@
             font-size: 35px;
         }
         .hero_text p{
-            font-size: 16px;
+            font-size: 14px;
             margin-top: 0.7%;
             line-height: 1.5;
             word-wrap: break-word;
@@ -382,6 +410,7 @@
             margin-block-start: 1em;
             margin-block-end: 1em;
             unicode-bidi: isolate;
+            letter-spacing: 0.5px;
         }
       .hero_text  #vertical_line{
             height: 4px;
@@ -2177,7 +2206,7 @@
             height: 100%;
             top: 0px;
             left: 0px;
-            background-color: rgb(0, 0, 0,0.3);
+           background-color: rgb(0, 0, 0,0.3);
             
 
             
@@ -2199,10 +2228,10 @@
             0%{
                 background-image: url(../images/IMG_20210817_111641.jpg);
             }
-            75%{
+            25%{
                 background-image: url(../images/3f6f8f5d-986f-49cf-abb6-012c5772e384.jpg);
                }
-            25%{
+            35%{
              background-image: url(../images/DSC_0440.jpg);
             }
             45%{
@@ -2214,7 +2243,7 @@
             70%{
                 background-image: url(../images/IMG-20240910-WA0020.jpg);
             }
-            20%{
+            90%{
                 background-image: url(../images/IMG_1553.jpg);
             }
             95%{
@@ -2553,6 +2582,9 @@
             }
             .fa-newspaper{
                 color: rgb(110, 2, 2);
+            }
+            .fa-circle{
+                font-size: 16px;
             }
             
         html{
