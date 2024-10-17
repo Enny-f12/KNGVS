@@ -56,6 +56,7 @@
             margin-left: 38px;
             text-align: left;
             letter-spacing: 0.5px;
+            line-height: 1.5;
             
         }
         .frames{
@@ -224,6 +225,7 @@
                 word-wrap: break-word;
                 margin-left: 0px;
                 letter-spacing: 0.5px;
+                line-height: 1.5;
         
             }
     }
@@ -244,12 +246,13 @@
     }
     .subsection_text p{
         width: 100%;
-        font-size: 14px;
+        font-size: 15px;
         margin-top: 1rem;
         text-align: left;
         word-wrap: break-word;
         margin-left: 0px;
         letter-spacing: 0.5px;
+        line-height: 1.5;
 
     }
    .subsection_text #vertical_line{
@@ -315,6 +318,7 @@
         margin-left: 38px;
         text-align: left;
         letter-spacing: 0.5px;
+        line-height: 1.5;
 
     }
     .hero_text  #vertical_line{
@@ -399,7 +403,7 @@
             font-size: 35px;
         }
         .hero_text p{
-            font-size: 14px;
+            font-size: 15px;
             margin-top: 0.7%;
             line-height: 1.5;
             word-wrap: break-word;
@@ -472,6 +476,7 @@
         margin-left: 27px;
         font-size: 16px;
         margin-top: 0.7%;
+        line-height: 1.5;
     }
   
     .programs{
@@ -716,6 +721,7 @@
             margin-top: 1rem;
             text-align: left;
             letter-spacing: 0.5px;
+            line-height: 1.5;
         }
         .programs{
       
@@ -792,6 +798,7 @@
             margin-top: 1rem;
             text-align: left;
             letter-spacing: 0.5px;
+            line-height: 1.5;
         }
         .programs{
       
@@ -865,10 +872,11 @@
         .programs_text p{
             width: 100%;
             margin-left: 0px;
-            font-size: 14px;
+            font-size: 15px;
             margin-top: 1rem;
             text-align: left;
             letter-spacing: 0.5px;
+            line-height: 1.5;
         }
         .programs{
       
@@ -1075,6 +1083,7 @@
             margin-top: 1rem;
             text-align: left;
             letter-spacing: 0.5px;
+            line-height: 1.5;
             
          }
     }
@@ -1112,12 +1121,13 @@
         }
         .text p{
             
-            font-size: 14px;
+            font-size: 15px;
             width: 100%;
             margin-left: 0px;
             margin-top: 1rem;
             text-align: left;
             letter-spacing: 0.5px;
+            line-height: 1.5;
             
          }
      }
@@ -1549,7 +1559,7 @@
         }
         .news_text p{
             line-height: 1.5;
-            font-size: 14px;
+            font-size: 15px;
             width: 100%;
             margin-left: 0px;
             margin-top: 1rem;
@@ -1720,6 +1730,7 @@
             font-size: 16px;
             line-height: 1.5;
             margin-top: 1rem;
+            letter-spacing: 0.5px;
             
         }
         .get_involved_text{
@@ -1749,6 +1760,7 @@
             font-size: 16px;
             line-height: 1.5;
             margin-top: 1rem;
+            letter-spacing: 0.5px;
             
             
         }
@@ -1798,11 +1810,12 @@
             
         }
         .get_button p{
-            font-size: 16px;
+            font-size: 15px;
             font-weight: light;
             line-height: 1.5;
             text-align: left;
             margin-left: -1px;
+            letter-spacing: 0.5px;
             
         }
         .get_button .button{
@@ -1904,6 +1917,7 @@
         width: 100%;
         margin-left: 28px;
         margin-bottom: 0.5rem;
+        letter-spacing: 0.5px;
         
     }
     .accordion{
@@ -1931,8 +1945,8 @@
     }
     .panel p{
         color: black;
-        font-size: 1.1rem;
-        line-height: 1.4;
+        font-size: 15px;
+        line-height: 1.5;
     }
     .panel{
         padding: 0.5rem 2rem 2.5rem 2rem;
@@ -2000,10 +2014,11 @@
             
         }
         .container p{
-            font-size: 16px;
+            font-size: 15px;
             width: 100%;
             margin-left: 0px;
             margin-top: 1rem;
+            letter-spacing: 0.5px;
             
         }
         .accordion{
@@ -2088,6 +2103,8 @@
           font-weight: light;
           color: rgb(249, 247, 247);
           margin-left: -0.5%;
+          line-height: 1.5;
+          letter-spacing: 0.5px;
         }
         
         .about,.categories,.contact{
@@ -2197,6 +2214,16 @@
                
             
             }
+            .caps p{
+                width: 90%;
+                margin-top: 2%;
+                font-size: 15px;
+                font-weight: light;
+                color: rgb(249, 247, 247);
+                margin-left: -0.5%;
+                line-height: 1.5;
+                letter-spacing: 0.5px;
+              }
             
         }
     
