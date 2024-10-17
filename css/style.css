@@ -112,8 +112,8 @@
         }
         .frames .edu{
             background-image: url('../images/KNGVS\ Pro_20240909_000128_1.png');
-            padding-top: 100px;
-            padding-bottom: 100px;
+            padding-top: 70px;
+            padding-bottom: 70px;
             border-radius: 10px;
             background-color: #cacaca;
             transition: transform 2s ease-in-out;
@@ -132,8 +132,8 @@
         }
         .frames .dov{
             background-image: url('../images/83ecb95f-2ae3-4067-b23a-c6cd72717a8c.jpg');
-            padding-top: 100px;
-            padding-bottom: 100px;
+            padding-top: 70px;
+            padding-bottom: 70px;
             border-radius: 10px;
             background-color: #808080;
             transition: transform 2s ease-in-out;
@@ -452,7 +452,7 @@
             .subsection_button a{
        
                 color: var(--color-1);
-                font-size: 18px;
+                font-size: 17px;
                 
                 
             }
@@ -460,7 +460,7 @@
                 color: var(--color-9);
             }
             .subsection_button i{
-                font-size: 16px;
+                font-size: 15px;
                 margin-top: 1px;
             }
             .subsection_button{
@@ -536,6 +536,11 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            font-size: 17px;
+            cursor: grab;
+         }
+         .frames_two a i{
+            font-size: 15px;
          }
          .frames_two h2{
             display: flex;
@@ -1200,6 +1205,11 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        font-size: 17px;
+        cursor: grab;
+     }
+     .frames_three a i{
+        font-size: 15px;
      }
      .frames_three h2{
         display: flex;
