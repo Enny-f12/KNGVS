@@ -468,7 +468,7 @@
     /*our programs*/
     .programs_text p{
         width: 90%;
-    
+        letter-spacing: 0.5px;
         margin-left: 27px;
         font-size: 16px;
         margin-top: 0.7%;
@@ -714,7 +714,8 @@
             margin-left: 28px;
             font-size: 16px;
             margin-top: 1rem;
-            text-align: justify;
+            text-align: left;
+            letter-spacing: 0.5px;
         }
         .programs{
       
@@ -789,7 +790,8 @@
             margin-left: 28px;
             font-size: 16px;
             margin-top: 1rem;
-            text-align: justify;
+            text-align: left;
+            letter-spacing: 0.5px;
         }
         .programs{
       
@@ -863,9 +865,10 @@
         .programs_text p{
             width: 100%;
             margin-left: 0px;
-            font-size: 16px;
+            font-size: 14px;
             margin-top: 1rem;
             text-align: left;
+            letter-spacing: 0.5px;
         }
         .programs{
       
@@ -990,6 +993,7 @@
         margin-top: 1rem;
         margin-bottom: 1rem;
         text-align: left;
+        letter-spacing: 0.5px;
 
      }
     
@@ -999,6 +1003,7 @@
         width: 100%;
         margin-left: 27px;
         margin-top: 0.7%;
+        letter-spacing: 0.5px;
         
      }
      .partners .text #vertical_line{
@@ -1069,6 +1074,7 @@
             margin-left: 0px;
             margin-top: 1rem;
             text-align: left;
+            letter-spacing: 0.5px;
             
          }
     }
@@ -1106,11 +1112,12 @@
         }
         .text p{
             
-            font-size: 16px;
+            font-size: 14px;
             width: 100%;
             margin-left: 0px;
             margin-top: 1rem;
             text-align: left;
+            letter-spacing: 0.5px;
             
          }
      }
@@ -1148,6 +1155,7 @@
         margin-left: 28px;
         margin-top: 1rem;
         text-align: left;
+        letter-spacing: 0.5px;
     }
     .links{
         display: flex;
@@ -1376,6 +1384,7 @@
             margin-left: 0px;
             margin-top: 1rem;
             text-align: left;
+            letter-spacing: 0.5px;
         }
        .news_text .line{
             display: flex;
@@ -1479,6 +1488,7 @@
             margin-left: 0px;
             margin-top: 1rem;
             text-align: left;
+            letter-spacing: 0.5px;
         }
        .news_text .line{
             display: flex;
@@ -1539,11 +1549,12 @@
         }
         .news_text p{
             line-height: 1.5;
-            font-size: 16px;
+            font-size: 14px;
             width: 100%;
             margin-left: 0px;
             margin-top: 1rem;
             text-align: left;
+            letter-spacing: 0.5px;
         }
        .news_text .line{
             display: flex;
