@@ -454,7 +454,7 @@ font-size: 16px;
         letter-spacing: 0.5px;
        
 }
-    }
+    
     
     .educatio{
         display: flex;
@@ -526,6 +526,7 @@ font-size: 16px;
         font-size: 28px;
         color: var(--color-1);
     } 
+}
 
 @media(max-width:550px){
     .garden{
@@ -664,7 +665,7 @@ font-size: 16px;
         margin-top: 5rem auto;
     }
     .garden img{
-        height: 350px;
+        height: 300px;
         width: 260px;
         border-radius: 10px;
         margin: auto;
@@ -684,7 +685,8 @@ font-size: 16px;
         letter-spacing: 0.5px;
        
 }
-    }
+    
+
     .educatio{
         display: flex;
         flex-direction: column;
@@ -694,7 +696,7 @@ font-size: 16px;
         margin-top: 5rem;
     }
     .educatio img{
-        height: 350px;
+        height: 300px;
         width: 260px;
         border-radius: 10px;
     }
@@ -704,11 +706,11 @@ font-size: 16px;
       margin-top: 1rem;
       text-align: left;
       font-size: 15px;
+      line-height: 1.5;
     }
     .educatio .text p{
         margin-top: 1rem;
         font-size: 15px;
-       
         line-height: 1.5;
         letter-spacing: 0.5px;
        
@@ -728,7 +730,7 @@ font-size: 16px;
         margin-top: 5rem;
     }
     .exercise img{
-        height: 350px;
+        height: 300px;
         width: 260px;
         border-radius: 10px;
     }
@@ -737,6 +739,9 @@ font-size: 16px;
       gap: 1rem;
       margin-top: 1rem;
       text-align: left;
+      line-height: 1.5;
+        letter-spacing: 0.5px;
+       
     }
     .exercise .text p{
         margin-top: 1rem;
@@ -783,6 +788,7 @@ font-size: 16px;
         border-radius: 10px;
         margin: auto;
     }
+}
 
 .footer{
     padding:  2rem 5rem;
