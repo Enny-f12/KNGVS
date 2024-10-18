@@ -464,6 +464,14 @@ html::-webkit-scrollbar-thumb{
             padding: 1rem;
         }
     }
+    @media(min-width:950px){
+        .pictures img{
+            width: 30%;
+            height: 250px;
+            margin-bottom: 1rem;
+            border-radius: 10px;
+        }
+    }
 
     .footer{
         padding:  2rem 5rem;

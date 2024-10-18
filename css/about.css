@@ -201,7 +201,7 @@ html::-webkit-scrollbar-thumb{
         text-align: left;
     }
     .story p{
-        margin-left:30px ;
+        margin-left:22px ;
         align-items: center;
     justify-content: center;
     line-height: 1.5;
@@ -250,7 +250,7 @@ html::-webkit-scrollbar-thumb{
     
             }
             .story p{
-                margin-left:30px ;
+                margin-left:22px ;
             }
             .story .img{
             width: 100%;
@@ -501,7 +501,7 @@ html::-webkit-scrollbar-thumb{
     
     }
     .mission .text p{
-        margin-left: 38px;
+        margin-left: 23px;
         letter-spacing: 0.5px;
         margin-top: 1rem;
         align-items: center;
@@ -520,7 +520,7 @@ html::-webkit-scrollbar-thumb{
     
     }
     .mission .text p{
-        margin-left: 38px;
+        margin-left: 23px;
         letter-spacing:0.5px;
         margin-top: 1rem;
         align-items: center;
@@ -549,7 +549,7 @@ html::-webkit-scrollbar-thumb{
     
     }
     .mission .text p{
-        margin-left: 38px;
+        margin-left: 23px;
         letter-spacing: 0.5px;
         margin-top: 1rem;
         align-items: center;
@@ -624,7 +624,7 @@ html::-webkit-scrollbar-thumb{
     
     }
     .history .text p{
-        margin-left: 35px;
+        margin-left: 21px;
         margin-top: 1rem;
         text-align: left;
         line-height: 1.5;
@@ -671,7 +671,7 @@ html::-webkit-scrollbar-thumb{
             margin: auto;
         }
         .history .text p{
-            margin-left: 35px;
+            margin-left: 21px;
             margin-top: 1rem;
             text-align: left;
             width: 100%;
@@ -699,7 +699,7 @@ html::-webkit-scrollbar-thumb{
             width: 100%;
             margin-top: 1rem;
             letter-spacing: 0.2px;
-            text-align: justify;
+            text-align: left;
         
         
         }

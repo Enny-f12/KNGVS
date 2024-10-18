@@ -2254,7 +2254,7 @@
             height: 100%;
             top: 0px;
             left: 0px;
-           background-color: rgba(22, 21, 21, 0.721);
+           background-color: rgba(23, 22, 22, 0.155);
             
 
             
@@ -2447,7 +2447,7 @@
             
         }
         .text-overlay h1{
-            font-size:32px;
+            font-size:36px;
             margin: auto;
             text-align: center;
             line-height: 1.5;

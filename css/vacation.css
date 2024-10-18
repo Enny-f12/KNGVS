@@ -164,7 +164,12 @@ html::-webkit-scrollbar-thumb{
     }
     
 
-
+.activities h2{
+    width: 83%;
+    margin: 0rem auto;
+    margin-top: 5rem;
+    font-size: 28px;
+}
 
 
 .vacation{
@@ -177,12 +182,12 @@ html::-webkit-scrollbar-thumb{
 }
 
 .vacation p{
-width: 80%;
+width: 85%;
 display: flex;
 align-items: center;
 justify-content: center;
 margin: auto;
-margin-top: 1rem;
+margin-top: 2rem;
 font-size: 16px;
        
         line-height: 1.5;
@@ -209,7 +214,7 @@ font-size: 16px;
 }
 .garden .text h2{
     font-size: 28px;
-    color: var(--color-1);
+    
 }
 .garden .text{
   flex-basis: 50%;
@@ -256,7 +261,6 @@ font-size: 16px;
 }
 .educatio .text h2{
     font-size: 28px;
-    color: var(--color-1);
 }
 
 .exercise{
@@ -291,12 +295,15 @@ font-size: 16px;
 }
 .exercise .text h2{
     font-size: 28px;
-    color: var(--color-1);
+    
 }
 .school{
     display: flex;
     flex-direction: column;
     gap: 4rem;
+
+    width: 90%;
+    margin: auto;
     margin-top: 5rem;
 }
 .school h2{
@@ -307,14 +314,19 @@ font-size: 16px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    gap: 2rem;
+    gap: 1rem;
     margin: auto;
-    width: 96%;
+    width: 90%;
+    text-align: text;
 }
 .one img{
-    width: 250px;
+    width: 240px;
     height: 200px;
     border-radius: 10px;
+}
+.one h3{
+    text-align:center;
+    max-width: 240px;
 }
 @media(max-width:1000px){
     .garden{
@@ -335,7 +347,7 @@ font-size: 16px;
     }
     .garden .text h2{
         font-size: 28px;
-        color: var(--color-1);
+        
     }
     .garden .text{
       flex-basis: 50%;
@@ -382,7 +394,7 @@ font-size: 16px;
     }
     .educatio .text h2{
         font-size: 28px;
-        color: var(--color-1);
+        
     }
     
     .exercise{
@@ -417,7 +429,7 @@ font-size: 16px;
     }
     .exercise .text h2{
         font-size: 28px;
-        color: var(--color-1);
+        
     } 
 }
 @media(max-width:850px){
@@ -440,7 +452,7 @@ font-size: 16px;
     }
     .garden .text h2{
         font-size: 28px;
-        color: var(--color-1);
+        
     }
     .garden .text{
       flex-basis: 90%;
@@ -488,7 +500,7 @@ font-size: 16px;
     }
     .educatio .text h2{
         font-size: 28px;
-        color: var(--color-1);
+    
     }
     
     .exercise{
@@ -524,7 +536,7 @@ font-size: 16px;
     }
     .exercise .text h2{
         font-size: 28px;
-        color: var(--color-1);
+        
     } 
 }
 
@@ -548,7 +560,7 @@ font-size: 16px;
     }
     .garden .text h2{
         font-size: 28px;
-        color: var(--color-1);
+    
     }
     .garden .text{
       flex-basis: 90%;
@@ -596,7 +608,7 @@ font-size: 16px;
     }
     .educatio .text h2{
         font-size: 28px;
-        color: var(--color-1);
+        
     }
     
     .exercise{
@@ -632,7 +644,7 @@ font-size: 16px;
     }
     .exercise .text h2{
         font-size: 28px;
-        color: var(--color-1);
+        
     } 
 }
 @media(max-width:480px){
@@ -672,7 +684,7 @@ font-size: 16px;
     }
     .garden .text h2{
         font-size: 24px;
-        color: var(--color-1);
+        
     }
     .garden .text{
       flex-basis: 100%;
@@ -718,7 +730,7 @@ font-size: 16px;
     }
     .educatio .text h2{
         font-size: 24px;
-        color: var(--color-1);
+    
     }
     
     .exercise{
@@ -755,7 +767,6 @@ font-size: 16px;
     
     .exercise .text h2{
         font-size: 24px;
-        color: var(--color-1);
     }
     .school{
         display: flex;
