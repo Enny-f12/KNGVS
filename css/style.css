@@ -2428,7 +2428,7 @@
             background-position: center;
             background-size: cover;
             background-repeat: no-repeat;
-            animation: bgChange 20s linear infinite;
+            animation: bgChange 35s linear infinite;
         
         }
         .text-overlay {
