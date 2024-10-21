@@ -198,10 +198,10 @@ html::-webkit-scrollbar-thumb{
 
 @media(max-width:1200px){
     .heading h2{
-        margin: 5rem auto;
+        margin: auto;
         text-align: center;
         font-size: 35px;
-        margin-bottom: 1rem;
+        margin-top:5rem;
     }
     .adv{
         display: flex;
