@@ -214,7 +214,6 @@ transition: .2s linear;
 .images img:hover{
     transform: scale(1.1);
 }
-.images .
 .categories .popup_image{
     top: 0;
     left: 0;
@@ -383,6 +382,16 @@ transition: .2s linear;
 .footer .social-links .fa-whatsapp{
     color: #25d366;
 }
+.fa-tiktok{
+    color: #ececec;
+    border-radius: 50%;
+}
+.footer .social-links .fa-linkedin-in{
+    color: #0077B5;
+}
+.footer .social-links .fa-instagram{
+    color: #cd486b;
+}
  .social-links a:hover{
     color: var(--color-1);
 }
@@ -432,22 +441,7 @@ font-size: 15px;
        text-align: justify;
     }
 }
-@media(max-width:480px){
-    .footer{
-        padding:  3rem 2rem;
-        margin-top: 5rem;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-       color: var(--color-4);
-       gap: 2rem;
-       background-color:#233b20;
-       text-align: justify;
-       
-    
-    }
-    
-}
+
 
 html{
     scroll-behavior: smooth;
@@ -497,4 +491,70 @@ html{
     margin-left: 1rem;
     margin-top: 2rem;
     position: fixed;
+}
+@media(max-width:480px){
+    .footer{
+        padding:  3rem 2rem;
+        margin-top: 5rem;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+       color: var(--color-4);
+       gap: 2rem;
+       background-color:#233b20;
+       text-align: justify;
+       
+    
+    }
+    .paragraph{
+        margin: auto;
+        display: flex;
+         justify-content: center;
+         align-items: center;
+         margin-top: -2rem;
+    }
+    .years{
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        margin-top: 3rem;
+        margin-bottom: 5rem;
+        flex-wrap: wrap;
+    
+    }
+    .years a{
+        display: inline-block;
+        padding: 10px 40px;
+        border-radius: 20px;
+        font-weight: 500;
+        transition: all 0.3s ease;
+        font-size: 16px;
+        cursor: pointer;
+        font-family: inherit;
+        line-height: 1.5;
+        color: var(--color-1);
+        border: 1px solid var(--color-1);
+        user-select: none;
+        width: 80%;
+        text-align: center;
+        background-color: var(--color-4);
+        
+    }
+    .years a:hover{
+        color: var(--color-4);
+        background-color: var(--color-1);
+    }
+    .heading a{
+        font-size: 24px;
+        color:var(--color-1) ;
+        margin-left: 0.5rem;
+        margin-top: 2rem;
+        position: fixed;
+    }
+    .gal h2{
+        font-size: 28px;
+    }
+    
 }

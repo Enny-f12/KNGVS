@@ -359,6 +359,16 @@ html::-webkit-scrollbar-thumb{
 .footer .social-links .fa-whatsapp{
     color: #25d366;
 }
+.fa-tiktok{
+    color: #ececec;
+    border-radius: 50%;
+}
+.footer .social-links .fa-linkedin-in{
+    color: #0077B5;
+}
+.footer .social-links .fa-instagram{
+    color: #cd486b;
+}
  .social-links a:hover{
     color: var(--color-1);
 }

@@ -110,3 +110,98 @@ margin-left: 2rem;
     align-items: center;
     margin-bottom: 1rem;
 }
+
+@media(max-width:480px){
+    .heading a{
+        font-size: 24px;
+        color:var(--color-1) ;
+        margin-left: 0.5rem;
+        position: fixed;
+    }
+    .heading h2{
+        margin: auto;
+        display: flex;
+        justify-content:center ;
+        align-items: center;
+        font-size: 28px;
+        margin-left: 2rem;
+        text-align: center;
+    }
+    .heading{
+        margin-top: 2rem;
+    }
+    .home{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 85%;
+        margin: auto;
+        gap: 2rem;
+        margin-top: 1.5rem;
+        flex-wrap: wrap;
+        
+    
+    }
+    .home img{
+        height: 70vh;
+        width: 110vw;
+    }
+    .home p{
+    line-height: 1.5;
+    }
+    
+    .schools{
+        
+        width: 80%;
+        margin: auto;
+        margin-top: 2rem;
+        line-height: 1.5;
+    }
+    .schools h3{
+        font-size: 20px;
+    }
+    .say{
+        width: 80%;
+        margin: auto;
+        margin-top: 4rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        place-items: center;
+        text-align: center;
+    }
+    
+    .photo{
+        margin-left: 2rem;
+        margin-top: 4rem;
+        margin-bottom: 5rem;
+        
+    }
+    .photo.first{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 1rem;
+    margin-left: 1rem;
+    flex-wrap: wrap;
+    }
+    .photo .first img{
+        width: 80%;
+        height: 40vh;
+    }
+    .photo .second img{
+        width: 80%;
+        height: 40vh;
+    }
+    .photo h2{
+        margin: auto;
+        display: flex;
+        justify-content:center ;
+        align-items: center;
+        margin-bottom: 1rem;
+        font-size: 20px;
+        
+    }
+}

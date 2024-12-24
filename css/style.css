@@ -246,7 +246,7 @@
     }
     .subsection_text p{
         width: 100%;
-        font-size: 15px;
+        font-size: 16px;
         margin-top: 1rem;
         text-align: left;
         word-wrap: break-word;
@@ -403,7 +403,7 @@
             font-size: 35px;
         }
         .hero_text p{
-            font-size: 15px;
+            font-size: 16px;
             margin-top: 0.7%;
             line-height: 1.5;
             word-wrap: break-word;
@@ -877,7 +877,7 @@
         .programs_text p{
             width: 100%;
             margin-left: 0px;
-            font-size: 15px;
+            font-size: 16px;
             margin-top: 1rem;
             text-align: left;
             letter-spacing: 0.5px;
@@ -1126,7 +1126,7 @@
         }
         .text p{
             
-            font-size: 15px;
+            font-size: 16px;
             width: 100%;
             margin-left: 0px;
             margin-top: 1rem;
@@ -1569,7 +1569,7 @@
         }
         .news_text p{
             line-height: 1.5;
-            font-size: 15px;
+            font-size: 16px;
             width: 100%;
             margin-left: 0px;
             margin-top: 1rem;
@@ -1820,7 +1820,7 @@
             
         }
         .get_button p{
-            font-size: 15px;
+            font-size: 16px;
             font-weight: light;
             line-height: 1.5;
             text-align: left;
@@ -2024,7 +2024,7 @@
             
         }
         .container p{
-            font-size: 15px;
+            font-size: 16px;
             width: 100%;
             margin-left: 0px;
             margin-top: 1rem;
@@ -2148,12 +2148,12 @@
         
         }
         
-         .fa-facebook{
-            color: #316ff6;
+         .fa-tiktok{
+            color: #ececec;
             border-radius: 50%;
         }
-        .footer .social-links .fa-twitter{
-            color: #1da1f2;
+        .footer .social-links .fa-linkedin-in{
+            color: #0077B5;
         }
         .footer .social-links .fa-instagram{
             color: #cd486b;
@@ -2227,7 +2227,7 @@
             .caps p{
                 width: 90%;
                 margin-top: 2%;
-                font-size: 15px;
+                font-size: 16px;
                 font-weight: light;
                 color: rgb(249, 247, 247);
                 margin-left: -0.5%;
